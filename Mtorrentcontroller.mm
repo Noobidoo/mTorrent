@@ -10,7 +10,7 @@
 
 @implementation Mtorrentcontroller
 - (IBAction)GetHash:(id)sender {
- NSURL *URL=[NSURL URLWithString:@"http://192.168.1.107/RPC2"];
+ NSURL *URL=[NSURL URLWithString:@"http://noobs.gotdns.org/RPC2"];
  XMLRPCRequest *request=[[XMLRPCRequest alloc] initWithURL:URL];
  XMLRPCConnectionManager *manager=[XMLRPCConnectionManager sharedManager];
  NSArray* test =[NSArray arrayWithObjects:@"",@"d.get_name=",nil];

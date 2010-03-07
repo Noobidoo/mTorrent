@@ -51,7 +51,7 @@
 		55E9152C1141CEE100489807 /* Mtorrentcontroller.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Mtorrentcontroller.mm; sourceTree = "<group>"; };
 		55E915361141D0A800489807 /* xmlrpc_my.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xmlrpc_my.h; sourceTree = "<group>"; };
 		55E915371141D0A800489807 /* xmlrpc_my.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = xmlrpc_my.mm; sourceTree = "<group>"; };
-		55E917871142541900489807 /* XMLRPC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XMLRPC.framework; path = /Users/noobs/Downloads/xmlrpc/xmlrpc/build/Release/XMLRPC.framework; sourceTree = "<absolute>"; };
+		55E917871142541900489807 /* XMLRPC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XMLRPC.framework; path = Frameworks/XMLRPC.framework; sourceTree = "<group>"; };
 		8D15AC360486D014006FF6A4 /* Rtorrent_interface-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Rtorrent_interface-Info.plist"; sourceTree = "<group>"; };
 		8D15AC370486D014006FF6A4 /* Rtorrent interface.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rtorrent interface.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */

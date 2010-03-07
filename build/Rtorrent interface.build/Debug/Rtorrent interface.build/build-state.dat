@@ -1,7 +1,7 @@
 TRtorrent interface
 v7
 r0
-t289679741.015036
+t289690098.223254
 cCheck dependencies
 cProcessInfoPlistFile "/Users/noobs/Documents/Rtorrent interface/build/Debug/Rtorrent interface.app/Contents/Info.plist" Rtorrent_interface-Info.plist
 cCpResource "build/Debug/Rtorrent interface.app/Contents/Resources/English.lproj/Credits.rtf" English.lproj/Credits.rtf
@@ -15,7 +15,7 @@ cCompileC "build/Rtorrent interface.build/Debug/Rtorrent interface.build/Objects
 cCompileC "build/Rtorrent interface.build/Debug/Rtorrent interface.build/Objects-normal/x86_64/Mtorrentcontroller.o" "/Users/noobs/Documents/Rtorrent interface/Mtorrentcontroller.mm" normal x86_64 objective-c++ com.apple.compilers.gcc.4_2
 cCompileC "build/Rtorrent interface.build/Debug/Rtorrent interface.build/Objects-normal/x86_64/xmlrpc_my.o" "/Users/noobs/Documents/Rtorrent interface/xmlrpc_my.mm" normal x86_64 objective-c++ com.apple.compilers.gcc.4_2
 cLd "/Users/noobs/Documents/Rtorrent interface/build/Debug/Rtorrent interface.app/Contents/MacOS/Rtorrent interface" normal x86_64
-cPBXCp "build/Debug/Rtorrent interface.app/Contents/Frameworks/XMLRPC.framework" /Users/noobs/Downloads/xmlrpc/xmlrpc/build/Release/XMLRPC.framework
+cPBXCp "build/Debug/Rtorrent interface.app/Contents/Frameworks/XMLRPC.framework" Frameworks/XMLRPC.framework
 cTouch "/Users/noobs/Documents/Rtorrent interface/build/Debug/Rtorrent interface.app"
 
 N/Developer/SDKs/MacOSX10.6.sdk
@@ -58,6 +58,16 @@ c000000004B9221B7000000000000A4CD
 t1267868087
 s42189
 
+N/Users/noobs/Documents/Rtorrent interface/Frameworks/XMLRPC.framework
+c000000004B941A4000000000000000CC
+t1267997248
+s204
+
+N/Users/noobs/Documents/Rtorrent interface/Frameworks/XMLRPC.framework/XMLRPC
+c000000004B941A40000000000003086C
+t1267997248
+s198764
+
 N/Users/noobs/Documents/Rtorrent interface/Mtorrentcontroller.h
 c000000004B93F0FE00000000000003B9
 t1267986686
@@ -73,9 +83,9 @@ i"Mtorrentcontroller.h"
 i"xmlrpc.h"
 
 N/Users/noobs/Documents/Rtorrent interface/Mtorrentcontroller.mm
-c000000004B93F13E00000000000006F7
-t1267986750
-s1783
+c000000004B94196600000000000006FA
+t1267997030
+s1786
 i"Mtorrentcontroller.h"
 i"xmlrpc_my.h"
 
@@ -98,11 +108,11 @@ s167
 i<Cocoa/Cocoa.h>
 
 N/Users/noobs/Documents/Rtorrent interface/build/Debug/Rtorrent interface.app
-t1267986941
+t1267997298
 s102
 
 N/Users/noobs/Documents/Rtorrent interface/build/Debug/Rtorrent interface.app/Contents/Frameworks/XMLRPC.framework
-t1267867860
+t1267997298
 s204
 
 N/Users/noobs/Documents/Rtorrent interface/build/Debug/Rtorrent interface.app/Contents/Info.plist
@@ -110,7 +120,7 @@ t1267809552
 s1343
 
 N/Users/noobs/Documents/Rtorrent interface/build/Debug/Rtorrent interface.app/Contents/MacOS/Rtorrent interface
-t1267986941
+t1267997298
 s18992
 
 N/Users/noobs/Documents/Rtorrent interface/build/Debug/Rtorrent interface.app/Contents/PkgInfo
@@ -134,7 +144,7 @@ t1267868095
 s5588
 
 N/Users/noobs/Documents/Rtorrent interface/build/Rtorrent interface.build/Debug/Rtorrent interface.build/Objects-normal/x86_64/Mtorrentcontroller.o
-t1267986940
+t1267997036
 s18384
 
 N/Users/noobs/Documents/Rtorrent interface/build/Rtorrent interface.build/Debug/Rtorrent interface.build/Objects-normal/x86_64/MyDocument.o
@@ -288,7 +298,7 @@ s1482
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies289679739#289679739#0(0"0(0#1#0"4300885448#0"0#
+lSLF07#2@18"Check dependencies289690098#289690098#0(0"0(0#1#0"4300885448#0"0#
 
 CCompileC "build/Rtorrent interface.build/Debug/Rtorrent interface.build/Objects-normal/x86_64/Mtorrentcontroller.o" "/Users/noobs/Documents/Rtorrent interface/Mtorrentcontroller.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
 s289532154.458610
@@ -317,8 +327,8 @@ o/Users/noobs/Documents/Rtorrent interface/Mtorrentcontroller.m:21: warning: met
 lSLF07#2@70"Compile /Users/noobs/Documents/Rtorrent interface/Mtorrentcontroller.m289532154#289532154#0(1453"/Users/noobs/Documents/Rtorrent interface/Mtorrentcontroller.m: In function '-[Mtorrentcontroller GetHash:]':/Users/noobs/Documents/Rtorrent interface/Mtorrentcontroller.m:15: error: expected ']' before ';' token/Users/noobs/Documents/Rtorrent interface/Mtorrentcontroller.m:17: error: expected ',' or ';' before '}' token/Users/noobs/Documents/Rtorrent interface/Mtorrentcontroller.m:18: error: 'GetPath' undeclared (first use in this function)/Users/noobs/Documents/Rtorrent interface/Mtorrentcontroller.m:18: error: (Each undeclared identifier is reported only once/Users/noobs/Documents/Rtorrent interface/Mtorrentcontroller.m:18: error: for each function it appears in.)/Users/noobs/Documents/Rtorrent interface/Mtorrentcontroller.m:18: error: expected ';' before ':' token/Users/noobs/Documents/Rtorrent interface/Mtorrentcontroller.m:21: error: expected declaration or statement at end of input/Users/noobs/Documents/Rtorrent interface/Mtorrentcontroller.m:15: warning: unused variable 'te'/Users/noobs/Documents/Rtorrent interface/Mtorrentcontroller.m: At top level:/Users/noobs/Documents/Rtorrent interface/Mtorrentcontroller.m:21: warning: '@end' missing in implementation context/Users/noobs/Documents/Rtorrent interface/Mtorrentcontroller.m:21: warning: incomplete implementation of class 'Mtorrentcontroller'/Users/noobs/Documents/Rtorrent interface/Mtorrentcontroller.m:21: warning: method definition for '-GetPath:' not found10(4@29"Expected ']' before ';' token289532154#110#104#0(6@62"/Users/noobs/Documents/Rtorrent interface/Mtorrentcontroller.m289532154#15#0#15#0#19"expected * before *0(4@36"Expected ',' or ';' before '}' token289532154#214#111#0(6@62"/Users/noobs/Documents/Rtorrent interface/Mtorrentcontroller.m289532154#17#0#17#0#19"expected * before *0(4@49"'GetPath' undeclared (first use in this function)289532154#325#124#0(6@62"/Users/noobs/Documents/Rtorrent interface/Mtorrentcontroller.m289532154#18#0#18#0#43"'*' undeclared (first use in this function)0(4@29"Expected ';' before ':' token289532154#681#104#0(6@62"/Users/noobs/Documents/Rtorrent interface/Mtorrentcontroller.m289532154#18#0#18#0#19"expected * before *0(4@49"Expected declaration or statement at end of input289532154#785#124#0(6@62"/Users/noobs/Documents/Rtorrent interface/Mtorrentcontroller.m289532154#21#0#21#0#49"expected declaration or statement at end of input0(22@20"Unused variable 'te'289532154#909#97#0(6@62"/Users/noobs/Documents/Rtorrent interface/Mtorrentcontroller.m289532154#15#0#15#0#19"unused variable '*'0(23@13"At top level:289532154#1006#78#0(6@62"/Users/noobs/Documents/Rtorrent interface/Mtorrentcontroller.m289532154#0#0#0#0#0"0(22@40"'@end' missing in implementation context289532154#1084#117#0(6@62"/Users/noobs/Documents/Rtorrent interface/Mtorrentcontroller.m289532154#21#0#21#0#40"'@end' missing in implementation context0(22@55"Incomplete implementation of class 'Mtorrentcontroller'289532154#1201#132#0(6@62"/Users/noobs/Documents/Rtorrent interface/Mtorrentcontroller.m289532154#21#0#21#0#38"incomplete implementation of class '*'0(22@43"Method definition for '-GetPath:' not found289532154#1333#120#0(6@62"/Users/noobs/Documents/Rtorrent interface/Mtorrentcontroller.m289532154#21#0#21#0#35"method definition for '*' not found0(0#0#62"/Users/noobs/Documents/Rtorrent interface/Mtorrentcontroller.m4300885448#1753"    cd "/Users/noobs/Documents/Rtorrent interface"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/noobs/Documents/Rtorrent interface/build/Rtorrent interface.build/Debug/Rtorrent interface.build/Rtorrent interface-generated-files.hmap" "-I/Users/noobs/Documents/Rtorrent interface/build/Rtorrent interface.build/Debug/Rtorrent interface.build/Rtorrent interface-own-target-headers.hmap" "-I/Users/noobs/Documents/Rtorrent interface/build/Rtorrent interface.build/Debug/Rtorrent interface.build/Rtorrent interface-all-target-headers.hmap" -iquote "/Users/noobs/Documents/Rtorrent interface/build/Rtorrent interface.build/Debug/Rtorrent interface.build/Rtorrent interface-project-headers.hmap" "-F/Users/noobs/Documents/Rtorrent interface/build/Debug" "-I/Users/noobs/Documents/Rtorrent interface/build/Debug/include" "-I/Users/noobs/Documents/Rtorrent interface/build/Rtorrent interface.build/Debug/Rtorrent interface.build/DerivedSources/x86_64" "-I/Users/noobs/Documents/Rtorrent interface/build/Rtorrent interface.build/Debug/Rtorrent interface.build/DerivedSources" -include /var/folders/79/79nWi9VOGeeilJ9nO3LJKU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Rtorrent_interface_Prefix-bzkgrfzqjjiaqpflcsdspwkihqat/Rtorrent_interface_Prefix.pch -c "/Users/noobs/Documents/Rtorrent interface/Mtorrentcontroller.m" -o "/Users/noobs/Documents/Rtorrent interface/build/Rtorrent interface.build/Debug/Rtorrent interface.build/Objects-normal/x86_64/Mtorrentcontroller.o"1#
 
 CCompileC "build/Rtorrent interface.build/Debug/Rtorrent interface.build/Objects-normal/x86_64/Mtorrentcontroller.o" "/Users/noobs/Documents/Rtorrent interface/Mtorrentcontroller.mm" normal x86_64 objective-c++ com.apple.compilers.gcc.4_2
-s289679739.890021
-e289679740.625960
+s289689832.947622
+e289689836.564428
 r1
 xCompileC
 xbuild/Rtorrent interface.build/Debug/Rtorrent interface.build/Objects-normal/x86_64/Mtorrentcontroller.o
@@ -327,7 +337,7 @@ xnormal
 xx86_64
 xobjective-c++
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@71"Compile /Users/noobs/Documents/Rtorrent interface/Mtorrentcontroller.mm289679739#289679740#0(0"0(0#0#63"/Users/noobs/Documents/Rtorrent interface/Mtorrentcontroller.mm4300885448#1863"    cd "/Users/noobs/Documents/Rtorrent interface"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/noobs/Documents/Rtorrent interface/build/Rtorrent interface.build/Debug/Rtorrent interface.build/Rtorrent interface-generated-files.hmap" "-I/Users/noobs/Documents/Rtorrent interface/build/Rtorrent interface.build/Debug/Rtorrent interface.build/Rtorrent interface-own-target-headers.hmap" "-I/Users/noobs/Documents/Rtorrent interface/build/Rtorrent interface.build/Debug/Rtorrent interface.build/Rtorrent interface-all-target-headers.hmap" -iquote "/Users/noobs/Documents/Rtorrent interface/build/Rtorrent interface.build/Debug/Rtorrent interface.build/Rtorrent interface-project-headers.hmap" "-F/Users/noobs/Documents/Rtorrent interface/build/Debug" "-F/Users/noobs/Documents/Rtorrent interface/../../Downloads/xmlrpc/xmlrpc/build/Release" "-I/Users/noobs/Documents/Rtorrent interface/build/Debug/include" "-I/Users/noobs/Documents/Rtorrent interface/build/Rtorrent interface.build/Debug/Rtorrent interface.build/DerivedSources/x86_64" "-I/Users/noobs/Documents/Rtorrent interface/build/Rtorrent interface.build/Debug/Rtorrent interface.build/DerivedSources" -include /var/folders/79/79nWi9VOGeeilJ9nO3LJKU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Rtorrent_interface_Prefix-ehcbbuywrtnbjoedssunormrsfbm/Rtorrent_interface_Prefix.pch -c "/Users/noobs/Documents/Rtorrent interface/Mtorrentcontroller.mm" -o "/Users/noobs/Documents/Rtorrent interface/build/Rtorrent interface.build/Debug/Rtorrent interface.build/Objects-normal/x86_64/Mtorrentcontroller.o"0#
+lSLF07#2@71"Compile /Users/noobs/Documents/Rtorrent interface/Mtorrentcontroller.mm289689832#289689836#0(0"0(0#0#63"/Users/noobs/Documents/Rtorrent interface/Mtorrentcontroller.mm4300885448#1863"    cd "/Users/noobs/Documents/Rtorrent interface"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/noobs/Documents/Rtorrent interface/build/Rtorrent interface.build/Debug/Rtorrent interface.build/Rtorrent interface-generated-files.hmap" "-I/Users/noobs/Documents/Rtorrent interface/build/Rtorrent interface.build/Debug/Rtorrent interface.build/Rtorrent interface-own-target-headers.hmap" "-I/Users/noobs/Documents/Rtorrent interface/build/Rtorrent interface.build/Debug/Rtorrent interface.build/Rtorrent interface-all-target-headers.hmap" -iquote "/Users/noobs/Documents/Rtorrent interface/build/Rtorrent interface.build/Debug/Rtorrent interface.build/Rtorrent interface-project-headers.hmap" "-F/Users/noobs/Documents/Rtorrent interface/build/Debug" "-F/Users/noobs/Documents/Rtorrent interface/../../Downloads/xmlrpc/xmlrpc/build/Release" "-I/Users/noobs/Documents/Rtorrent interface/build/Debug/include" "-I/Users/noobs/Documents/Rtorrent interface/build/Rtorrent interface.build/Debug/Rtorrent interface.build/DerivedSources/x86_64" "-I/Users/noobs/Documents/Rtorrent interface/build/Rtorrent interface.build/Debug/Rtorrent interface.build/DerivedSources" -include /var/folders/79/79nWi9VOGeeilJ9nO3LJKU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Rtorrent_interface_Prefix-ehcbbuywrtnbjoedssunormrsfbm/Rtorrent_interface_Prefix.pch -c "/Users/noobs/Documents/Rtorrent interface/Mtorrentcontroller.mm" -o "/Users/noobs/Documents/Rtorrent interface/build/Rtorrent interface.build/Debug/Rtorrent interface.build/Objects-normal/x86_64/Mtorrentcontroller.o"0#
 
 CCompileC "build/Rtorrent interface.build/Debug/Rtorrent interface.build/Objects-normal/x86_64/MyDocument.o" "/Users/noobs/Documents/Rtorrent interface/MyDocument.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
 s289559811.863409
@@ -457,14 +467,14 @@ xEnglish.lproj/Credits.rtf
 lSLF07#2@30"Copy English.lproj/Credits.rtf289502352#289502353#0(0"0(0#0#67"/Users/noobs/Documents/Rtorrent interface/English.lproj/Credits.rtf4300885448#381"    cd "/Users/noobs/Documents/Rtorrent interface"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/noobs/Documents/Rtorrent interface/English.lproj/Credits.rtf" "/Users/noobs/Documents/Rtorrent interface/build/Debug/Rtorrent interface.app/Contents/Resources/English.lproj"0#
 
 CLd "/Users/noobs/Documents/Rtorrent interface/build/Debug/Rtorrent interface.app/Contents/MacOS/Rtorrent interface" normal x86_64
-s289679740.626074
-e289679741.009051
+s289690098.037482
+e289690098.154368
 r1
 xLd
 x/Users/noobs/Documents/Rtorrent interface/build/Debug/Rtorrent interface.app/Contents/MacOS/Rtorrent interface
 xnormal
 xx86_64
-lSLF07#2@115"Link /Users/noobs/Documents/Rtorrent interface/build/Debug/Rtorrent interface.app/Contents/MacOS/Rtorrent interface289679740#289679741#0(0"0(0#0#0"4300885448#730"    cd "/Users/noobs/Documents/Rtorrent interface"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/g++-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk "-L/Users/noobs/Documents/Rtorrent interface/build/Debug" "-F/Users/noobs/Documents/Rtorrent interface/build/Debug" "-F/Users/noobs/Documents/Rtorrent interface/../../Downloads/xmlrpc/xmlrpc/build/Release" -filelist "/Users/noobs/Documents/Rtorrent interface/build/Rtorrent interface.build/Debug/Rtorrent interface.build/Objects-normal/x86_64/Rtorrent interface.LinkFileList" -mmacosx-version-min=10.6 -framework XMLRPC -framework Cocoa -o "/Users/noobs/Documents/Rtorrent interface/build/Debug/Rtorrent interface.app/Contents/MacOS/Rtorrent interface"0#
+lSLF07#2@115"Link /Users/noobs/Documents/Rtorrent interface/build/Debug/Rtorrent interface.app/Contents/MacOS/Rtorrent interface289690098#289690098#0(0"0(0#0#0"4300885448#730"    cd "/Users/noobs/Documents/Rtorrent interface"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/g++-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk "-L/Users/noobs/Documents/Rtorrent interface/build/Debug" "-F/Users/noobs/Documents/Rtorrent interface/build/Debug" "-F/Users/noobs/Documents/Rtorrent interface/../../Downloads/xmlrpc/xmlrpc/build/Release" -filelist "/Users/noobs/Documents/Rtorrent interface/build/Rtorrent interface.build/Debug/Rtorrent interface.build/Objects-normal/x86_64/Rtorrent interface.LinkFileList" -mmacosx-version-min=10.6 -framework XMLRPC -framework Cocoa -o "/Users/noobs/Documents/Rtorrent interface/build/Debug/Rtorrent interface.app/Contents/MacOS/Rtorrent interface"0#
 
 CPBXCp "build/Debug/Rtorrent interface.app/Contents/Frameworks/XMLRPC.framework" /Users/noobs/Downloads/xmlrpc/xmlrpc/build/Release/XMLRPC.framework
 s289560660.403463
@@ -474,6 +484,15 @@ xPBXCp
 xbuild/Debug/Rtorrent interface.app/Contents/Frameworks/XMLRPC.framework
 x/Users/noobs/Downloads/xmlrpc/xmlrpc/build/Release/XMLRPC.framework
 lSLF07#2@72"Copy /Users/noobs/Downloads/xmlrpc/xmlrpc/build/Release/XMLRPC.framework289560660#289560660#0(0"0(0#0#67"/Users/noobs/Downloads/xmlrpc/xmlrpc/build/Release/XMLRPC.framework4300885448#366"    cd "/Users/noobs/Documents/Rtorrent interface"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/noobs/Downloads/xmlrpc/xmlrpc/build/Release/XMLRPC.framework "/Users/noobs/Documents/Rtorrent interface/build/Debug/Rtorrent interface.app/Contents/Frameworks"0#
+
+CPBXCp "build/Debug/Rtorrent interface.app/Contents/Frameworks/XMLRPC.framework" Frameworks/XMLRPC.framework
+s289690098.154498
+e289690098.218857
+r1
+xPBXCp
+xbuild/Debug/Rtorrent interface.app/Contents/Frameworks/XMLRPC.framework
+xFrameworks/XMLRPC.framework
+lSLF07#2@32"Copy Frameworks/XMLRPC.framework289690098#289690098#0(0"0(0#0#69"/Users/noobs/Documents/Rtorrent interface/Frameworks/XMLRPC.framework4300885448#370"    cd "/Users/noobs/Documents/Rtorrent interface"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/noobs/Documents/Rtorrent interface/Frameworks/XMLRPC.framework" "/Users/noobs/Documents/Rtorrent interface/build/Debug/Rtorrent interface.app/Contents/Frameworks"0#
 
 CProcessInfoPlistFile "/Users/noobs/Documents/Rtorrent interface/build/Debug/Rtorrent interface.app/Contents/Info.plist" Rtorrent_interface-Info.plist
 s289502352.818209
@@ -537,10 +556,10 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@40"Precompile Rtorrent_interface_Prefix.pch289528760#289528768#0(0"0(0#0#71"/Users/noobs/Documents/Rtorrent interface/Rtorrent_interface_Prefix.pch4300885448#1634"    cd "/Users/noobs/Documents/Rtorrent interface"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c++-header -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/noobs/Documents/Rtorrent interface/build/Rtorrent interface.build/Debug/Rtorrent interface.build/Rtorrent interface-generated-files.hmap" "-I/Users/noobs/Documents/Rtorrent interface/build/Rtorrent interface.build/Debug/Rtorrent interface.build/Rtorrent interface-own-target-headers.hmap" "-I/Users/noobs/Documents/Rtorrent interface/build/Rtorrent interface.build/Debug/Rtorrent interface.build/Rtorrent interface-all-target-headers.hmap" -iquote "/Users/noobs/Documents/Rtorrent interface/build/Rtorrent interface.build/Debug/Rtorrent interface.build/Rtorrent interface-project-headers.hmap" "-F/Users/noobs/Documents/Rtorrent interface/build/Debug" "-I/Users/noobs/Documents/Rtorrent interface/build/Debug/include" "-I/Users/noobs/Documents/Rtorrent interface/build/Rtorrent interface.build/Debug/Rtorrent interface.build/DerivedSources/x86_64" "-I/Users/noobs/Documents/Rtorrent interface/build/Rtorrent interface.build/Debug/Rtorrent interface.build/DerivedSources" -c "/Users/noobs/Documents/Rtorrent interface/Rtorrent_interface_Prefix.pch" -o /var/folders/79/79nWi9VOGeeilJ9nO3LJKU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Rtorrent_interface_Prefix-febwgcmkqqqbvlcpirikkpmdrkha/Rtorrent_interface_Prefix.pch.gch0#
 
 CTouch "/Users/noobs/Documents/Rtorrent interface/build/Debug/Rtorrent interface.app"
-s289679741.009324
-e289679741.014978
+s289690098.218975
+e289690098.223178
 r1
 xTouch
 x/Users/noobs/Documents/Rtorrent interface/build/Debug/Rtorrent interface.app
-lSLF07#2@82"Touch /Users/noobs/Documents/Rtorrent interface/build/Debug/Rtorrent interface.app289679741#289679741#0(0"0(0#0#0"4300885448#152"    cd "/Users/noobs/Documents/Rtorrent interface"    /usr/bin/touch -c "/Users/noobs/Documents/Rtorrent interface/build/Debug/Rtorrent interface.app"0#
+lSLF07#2@82"Touch /Users/noobs/Documents/Rtorrent interface/build/Debug/Rtorrent interface.app289690098#289690098#0(0"0(0#0#0"4300885448#152"    cd "/Users/noobs/Documents/Rtorrent interface"    /usr/bin/touch -c "/Users/noobs/Documents/Rtorrent interface/build/Debug/Rtorrent interface.app"0#
 
