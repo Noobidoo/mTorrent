@@ -6,23 +6,58 @@
 //
 
 #import "Mtorrentcontroller.h"
-#import "xmlrpc_my.h"
+#import <XMLRPC/XMLRPC.h>
 
 @implementation Mtorrentcontroller
-- (IBAction)GetHash:(id)sender {
- NSURL *URL=[NSURL URLWithString:@"http://noobs.gotdns.org/RPC2"];
- XMLRPCRequest *request=[[XMLRPCRequest alloc] initWithURL:URL];
- XMLRPCConnectionManager *manager=[XMLRPCConnectionManager sharedManager];
- NSArray* test =[NSArray arrayWithObjects:@"",@"d.get_name=",nil];
- [request setMethod:@"d.multicall" withParameter:test];
- NSLog(@"Requested body:%@",[request body]);
- [manager spawnConnectionWithXMLRPCRequest: request delegate: self];
- [request release];
 
+@synthesize URL;
+@synthesize request;
+@synthesize manager;
+@synthesize ViewData;
+@synthesize torrents;
+
+- (id)init
+{
+ self = [super init];
+ if (self) {
+  URL=[NSURL URLWithString:@"http://noobs.gotdns.org/RPC2"];
+  [URL retain];
+  manager=[XMLRPCConnectionManager sharedManager];
+  ViewData=[ViewData init];
+  torrents  = [[NSMutableArray alloc] init];
+
+ }
+ return self;
+}
+
+- (void)dealloc{
+ [URL release];
+ [ViewData release];
+ [super dealloc];
+ 
+}
+- (IBAction)GetHash:(id)sender {
+ request=[[XMLRPCRequest alloc] initWithURL:URL];
+ NSArray* Parameters =[NSArray arrayWithObjects:@"",@"d.get_name=",@"d.get_base_path=",@"d.get_hash=",nil];
+ [request setMethod:@"d.multicall" withParameter:Parameters];
+ [manager spawnConnectionWithXMLRPCRequest: request delegate: self];
+ [request release]; 
 }
 - (IBAction)GetPath:(id)sender {
  
 }
+
+- (IBAction)ReloadTable:(id)sender {
+ NSDictionary *dict =[NSDictionary dictionaryWithObjectsAndKeys:
+                      @"./", @"Path",
+                      @"non", @"Name",
+                      @"95749389gfd8fgg8f", @"Hash",
+                      nil];
+ 
+ //add it to the arrayController
+ [arrayContacts addObject:dict];
+}
+
 
 - (void)request: (XMLRPCRequest *)request didReceiveResponse: (XMLRPCResponse *)response {
  if ([response isFault]) {
@@ -30,11 +65,13 @@
   
   NSLog(@"Fault string: %@", [response faultString]);
  } else {
-  NSLog(@"Parsed response: %@", [response object]);
-  [display setStringValue:[response object]];
+  [arrayContacts removeObjects:[arrayContacts arrangedObjects]];
+  for (NSArray* m in [NSArray arrayWithArray:[response object]]) {
+   NSArray* keys =[NSArray arrayWithObjects:@"Name",@"Path",@"Hash",nil];
+   NSDictionary* dict=[NSDictionary dictionaryWithObjects:m forKeys:keys];
+   [arrayContacts addObject:dict];
+  }
  }
- 
- NSLog(@"Response body: %@", [response body]);
  
 }
 
@@ -46,12 +83,5 @@
 {}
 - (void)request: (XMLRPCRequest *)request didCancelAuthenticationChallenge: (NSURLAuthenticationChallenge *)challenge
 {}
-- (void) parser:(NSXMLParser *)parser 
-didStartElement:(NSString *)elementName 
-   namespaceURI:(NSString *)namespaceURI 
-  qualifiedName:(NSString *)qualifiedName 
-     attributes:(NSDictionary *)attributeDict
-{
- NSLog(@"Started parsing %@", elementName);
-}
+
 @end

@@ -1,9 +1,0 @@
-/Users/noobs/Documents/Rtorrent interface/xmlrpc.mm: In function 'void dumpDebug(const char*, const AppleEvent*, OSType)':
-/Users/noobs/Documents/Rtorrent interface/xmlrpc.mm:46: warning: field precision should have type 'int', but argument 3 has type 'long int'
-/Users/noobs/Documents/Rtorrent interface/xmlrpc.mm: In function 'NSString* +[xmlrpc Getxml:](objc_object*, objc_selector*, char*)':
-/Users/noobs/Documents/Rtorrent interface/xmlrpc.mm:58: warning: instance variable 'serverURL' accessed in class method
-/Users/noobs/Documents/Rtorrent interface/xmlrpc.mm:58: warning: deprecated conversion from string constant to 'char*'
-/Users/noobs/Documents/Rtorrent interface/xmlrpc.mm:65: warning: instance variable 'serverURL' accessed in class method
-/Users/noobs/Documents/Rtorrent interface/xmlrpc.mm:65: warning: instance variable 'serverURL' accessed in class method
-/Users/noobs/Documents/Rtorrent interface/xmlrpc.mm:87: warning: deprecated conversion from string constant to 'char*'
-/Users/noobs/Documents/Rtorrent interface/xmlrpc.mm:62: warning: unused variable 'test'
