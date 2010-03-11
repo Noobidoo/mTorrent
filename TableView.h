@@ -16,10 +16,8 @@
 @property(readwrite,assign) NSMutableDictionary* records;
 @property (assign) NSTableView* myTable;
 - (IBAction)reloadTableView:(id)sender;
-
+- (IBAction)doubleClickAction:(id)sender;
 -(void) myaddObject:(NSDictionary*)Dictionery to:(NSTableView*) tableView;
-
--(void) addTest;
 @end
 
 @interface TableView (NSTableViewDelegate) <NSTableViewDelegate>

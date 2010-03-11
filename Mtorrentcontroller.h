@@ -11,7 +11,7 @@
 
 @interface Mtorrentcontroller : NSObject <XMLRPCConnectionDelegate>{
  IBOutlet NSTableView *myTable;
- IBOutlet NSArrayController *arrayContacts;
+ IBOutlet NSTextField *myTextview;
 @private NSURL* URL;
 @private XMLRPCRequest* myrequest;
 @private XMLRPCConnectionManager* manager;
@@ -22,8 +22,9 @@
 @property (readwrite,assign) NSURL* URL;
 @property (readwrite,assign) XMLRPCConnectionManager* manager;
 @property (copy) NSMutableArray* torrents;
-- (IBAction)GetHash:(id)sender;
+- (IBAction)requestUpdate:(id)sender;
 - (IBAction)GetPath:(id)sender;
+- (IBAction)doubleClickAction:(id)sender;
 
 - (void)request: (XMLRPCRequest *)request didReceiveResponse: (XMLRPCResponse *)response;
 - (void)request: (XMLRPCRequest *)request didFailWithError: (NSError *)error;

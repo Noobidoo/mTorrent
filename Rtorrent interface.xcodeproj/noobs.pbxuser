@@ -22,9 +22,9 @@
 			8D15AC270486D014006FF6A4 /* Rtorrent interface */,
 		);
 		breakpoints = (
-			553A0D5311487C4900A95B78 /* TableView.mm:70 */,
-			553A0D9D11487F5300A95B78 /* Mtorrentcontroller.mm:55 */,
-			551BF4431148849C00BA1A74 /* Mtorrentcontroller.mm:28 */,
+			553A0D5311487C4900A95B78 /* TableView.m:68 */,
+			553A0D9D11487F5300A95B78 /* Mtorrentcontroller.m:57 */,
+			551BF4431148849C00BA1A74 /* Mtorrentcontroller.m:28 */,
 		);
 		codeSenseManager = 55297CBF1141707C00E8788B /* Code sense */;
 		executables = (
@@ -183,6 +183,93 @@
 			551BF4E81148D18C00BA1A74 /* PBXTextBookmark */ = 551BF4E81148D18C00BA1A74 /* PBXTextBookmark */;
 			551BF4E91148D2F600BA1A74 /* PBXBookmark */ = 551BF4E91148D2F600BA1A74 /* PBXBookmark */;
 			551BF4F01148D32F00BA1A74 /* PBXTextBookmark */ = 551BF4F01148D32F00BA1A74 /* PBXTextBookmark */;
+			551BF4F31149053000BA1A74 /* PBXBookmark */ = 551BF4F31149053000BA1A74 /* PBXBookmark */;
+			551BF4F51149055D00BA1A74 /* PBXTextBookmark */ = 551BF4F51149055D00BA1A74 /* PBXTextBookmark */;
+			551BF4F61149055D00BA1A74 /* PBXTextBookmark */ = 551BF4F61149055D00BA1A74 /* PBXTextBookmark */;
+			551BF4F91149055D00BA1A74 /* PBXTextBookmark */ = 551BF4F91149055D00BA1A74 /* PBXTextBookmark */;
+			551BF5031149060000BA1A74 /* PBXTextBookmark */ = 551BF5031149060000BA1A74 /* PBXTextBookmark */;
+			551BF5041149060000BA1A74 /* PBXTextBookmark */ = 551BF5041149060000BA1A74 /* PBXTextBookmark */;
+			551BF5051149060000BA1A74 /* PBXTextBookmark */ = 551BF5051149060000BA1A74 /* PBXTextBookmark */;
+			551BF5061149060000BA1A74 /* PBXTextBookmark */ = 551BF5061149060000BA1A74 /* PBXTextBookmark */;
+			551BF50A1149066F00BA1A74 /* PBXTextBookmark */ = 551BF50A1149066F00BA1A74 /* PBXTextBookmark */;
+			551BF5131149077B00BA1A74 /* PBXTextBookmark */ = 551BF5131149077B00BA1A74 /* PBXTextBookmark */;
+			551BF515114908BB00BA1A74 /* PBXBookmark */ = 551BF515114908BB00BA1A74 /* PBXBookmark */;
+			551BF518114908C500BA1A74 /* PBXTextBookmark */ = 551BF518114908C500BA1A74 /* PBXTextBookmark */;
+			551BF519114908C500BA1A74 /* PBXTextBookmark */ = 551BF519114908C500BA1A74 /* PBXTextBookmark */;
+			551BF51B1149092E00BA1A74 /* PBXTextBookmark */ = 551BF51B1149092E00BA1A74 /* PBXTextBookmark */;
+			551BF51C1149092E00BA1A74 /* PBXTextBookmark */ = 551BF51C1149092E00BA1A74 /* PBXTextBookmark */;
+			551BF51D1149093C00BA1A74 /* PBXTextBookmark */ = 551BF51D1149093C00BA1A74 /* PBXTextBookmark */;
+			551BF51F1149098A00BA1A74 /* PBXBookmark */ = 551BF51F1149098A00BA1A74 /* PBXBookmark */;
+			551BF5231149099F00BA1A74 /* PBXTextBookmark */ = 551BF5231149099F00BA1A74 /* PBXTextBookmark */;
+			551BF5241149099F00BA1A74 /* PBXTextBookmark */ = 551BF5241149099F00BA1A74 /* PBXTextBookmark */;
+			551BF5271149099F00BA1A74 /* PBXTextBookmark */ = 551BF5271149099F00BA1A74 /* PBXTextBookmark */;
+			551BF5281149099F00BA1A74 /* PBXTextBookmark */ = 551BF5281149099F00BA1A74 /* PBXTextBookmark */;
+			551BF53011490A2E00BA1A74 /* PBXBookmark */ = 551BF53011490A2E00BA1A74 /* PBXBookmark */;
+			551BF53111490A2E00BA1A74 /* PBXTextBookmark */ = 551BF53111490A2E00BA1A74 /* PBXTextBookmark */;
+			551BF53211490A2E00BA1A74 /* PBXTextBookmark */ = 551BF53211490A2E00BA1A74 /* PBXTextBookmark */;
+			551BF53311490A2E00BA1A74 /* PBXTextBookmark */ = 551BF53311490A2E00BA1A74 /* PBXTextBookmark */;
+			551BF53411490A2E00BA1A74 /* PBXTextBookmark */ = 551BF53411490A2E00BA1A74 /* PBXTextBookmark */;
+			551BF53911490AD200BA1A74 /* PBXTextBookmark */ = 551BF53911490AD200BA1A74 /* PBXTextBookmark */;
+			551BF53A11490AD200BA1A74 /* PBXTextBookmark */ = 551BF53A11490AD200BA1A74 /* PBXTextBookmark */;
+			551BF53B11490AD200BA1A74 /* PBXTextBookmark */ = 551BF53B11490AD200BA1A74 /* PBXTextBookmark */;
+			551BF53C11490AD200BA1A74 /* PBXTextBookmark */ = 551BF53C11490AD200BA1A74 /* PBXTextBookmark */;
+			551BF54511490C5900BA1A74 /* PBXTextBookmark */ = 551BF54511490C5900BA1A74 /* PBXTextBookmark */;
+			551BF54611490C5900BA1A74 /* PBXTextBookmark */ = 551BF54611490C5900BA1A74 /* PBXTextBookmark */;
+			551BF54711490C5900BA1A74 /* PBXTextBookmark */ = 551BF54711490C5900BA1A74 /* PBXTextBookmark */;
+			551BF54E11490CA500BA1A74 /* PBXTextBookmark */ = 551BF54E11490CA500BA1A74 /* PBXTextBookmark */;
+			551BF54F11490CA500BA1A74 /* PBXTextBookmark */ = 551BF54F11490CA500BA1A74 /* PBXTextBookmark */;
+			551BF55011490CA500BA1A74 /* PBXTextBookmark */ = 551BF55011490CA500BA1A74 /* PBXTextBookmark */;
+			551BF55111490CA500BA1A74 /* PBXTextBookmark */ = 551BF55111490CA500BA1A74 /* PBXTextBookmark */;
+			551BF55211490CA500BA1A74 /* PBXTextBookmark */ = 551BF55211490CA500BA1A74 /* PBXTextBookmark */;
+			551BF55D1149127E00BA1A74 /* XCBuildMessageTextBookmark */ = 551BF55D1149127E00BA1A74 /* XCBuildMessageTextBookmark */;
+			551BF568114912B800BA1A74 /* PBXTextBookmark */ = 551BF568114912B800BA1A74 /* PBXTextBookmark */;
+			551BF569114912B800BA1A74 /* PBXTextBookmark */ = 551BF569114912B800BA1A74 /* PBXTextBookmark */;
+			551BF56A114912B800BA1A74 /* PBXTextBookmark */ = 551BF56A114912B800BA1A74 /* PBXTextBookmark */;
+			551BF56B114912B800BA1A74 /* PBXTextBookmark */ = 551BF56B114912B800BA1A74 /* PBXTextBookmark */;
+			551BF56C114912B800BA1A74 /* PBXTextBookmark */ = 551BF56C114912B800BA1A74 /* PBXTextBookmark */;
+			551BF56E114912BA00BA1A74 /* XCBuildMessageTextBookmark */ = 551BF56E114912BA00BA1A74 /* XCBuildMessageTextBookmark */;
+			551BF56F114912BA00BA1A74 /* PBXTextBookmark */ = 551BF56F114912BA00BA1A74 /* PBXTextBookmark */;
+			551BF572114912CB00BA1A74 /* PBXTextBookmark */ = 551BF572114912CB00BA1A74 /* PBXTextBookmark */;
+			551BF573114912CB00BA1A74 /* PBXTextBookmark */ = 551BF573114912CB00BA1A74 /* PBXTextBookmark */;
+			551BF574114912CB00BA1A74 /* PBXTextBookmark */ = 551BF574114912CB00BA1A74 /* PBXTextBookmark */;
+			551BF575114912CB00BA1A74 /* PBXTextBookmark */ = 551BF575114912CB00BA1A74 /* PBXTextBookmark */;
+			551BF576114912D800BA1A74 /* PBXTextBookmark */ = 551BF576114912D800BA1A74 /* PBXTextBookmark */;
+			551BF57911491F8D00BA1A74 /* PBXBookmark */ = 551BF57911491F8D00BA1A74 /* PBXBookmark */;
+			551BF57E1149203000BA1A74 /* PBXTextBookmark */ = 551BF57E1149203000BA1A74 /* PBXTextBookmark */;
+			551BF5821149207F00BA1A74 /* PBXTextBookmark */ = 551BF5821149207F00BA1A74 /* PBXTextBookmark */;
+			551BF58C114922D800BA1A74 /* PBXTextBookmark */ = 551BF58C114922D800BA1A74 /* PBXTextBookmark */;
+			551BF58E11492B6100BA1A74 /* PBXTextBookmark */ = 551BF58E11492B6100BA1A74 /* PBXTextBookmark */;
+			551BF59111492F3400BA1A74 /* XCBuildMessageTextBookmark */ = 551BF59111492F3400BA1A74 /* XCBuildMessageTextBookmark */;
+			551BF59211492F3400BA1A74 /* PBXTextBookmark */ = 551BF59211492F3400BA1A74 /* PBXTextBookmark */;
+			551BF595114930F600BA1A74 /* PBXBookmark */ = 551BF595114930F600BA1A74 /* PBXBookmark */;
+			551BF59A1149314600BA1A74 /* PBXTextBookmark */ = 551BF59A1149314600BA1A74 /* PBXTextBookmark */;
+			551BF59D114940F100BA1A74 /* PBXBookmark */ = 551BF59D114940F100BA1A74 /* PBXBookmark */;
+			551BF5A1114940FC00BA1A74 /* PBXTextBookmark */ = 551BF5A1114940FC00BA1A74 /* PBXTextBookmark */;
+			551BF5A2114940FC00BA1A74 /* PBXTextBookmark */ = 551BF5A2114940FC00BA1A74 /* PBXTextBookmark */;
+			551BF5A5114941EF00BA1A74 /* PBXBookmark */ = 551BF5A5114941EF00BA1A74 /* PBXBookmark */;
+			551BF5AE11494A3900BA1A74 /* XCBuildMessageTextBookmark */ = 551BF5AE11494A3900BA1A74 /* XCBuildMessageTextBookmark */;
+			551BF5BA11494AB100BA1A74 /* PBXTextBookmark */ = 551BF5BA11494AB100BA1A74 /* PBXTextBookmark */;
+			551BF5BB11494AB100BA1A74 /* PBXTextBookmark */ = 551BF5BB11494AB100BA1A74 /* PBXTextBookmark */;
+			551BF5BC11494AB100BA1A74 /* PBXTextBookmark */ = 551BF5BC11494AB100BA1A74 /* PBXTextBookmark */;
+			551BF5BF11494AB100BA1A74 /* PBXTextBookmark */ = 551BF5BF11494AB100BA1A74 /* PBXTextBookmark */;
+			551BF5C311494AC700BA1A74 /* PBXTextBookmark */ = 551BF5C311494AC700BA1A74 /* PBXTextBookmark */;
+			551BF5C411494AC700BA1A74 /* PBXTextBookmark */ = 551BF5C411494AC700BA1A74 /* PBXTextBookmark */;
+			551BF5C511494AC700BA1A74 /* PBXTextBookmark */ = 551BF5C511494AC700BA1A74 /* PBXTextBookmark */;
+			551BF5C711494AE700BA1A74 /* XCBuildMessageTextBookmark */ = 551BF5C711494AE700BA1A74 /* XCBuildMessageTextBookmark */;
+			551BF5C811494AE700BA1A74 /* PBXTextBookmark */ = 551BF5C811494AE700BA1A74 /* PBXTextBookmark */;
+			551BF5CD11494B4D00BA1A74 /* PBXTextBookmark */ = 551BF5CD11494B4D00BA1A74 /* PBXTextBookmark */;
+			551BF5CE11494B4D00BA1A74 /* PBXTextBookmark */ = 551BF5CE11494B4D00BA1A74 /* PBXTextBookmark */;
+			551BF5CF11494B4E00BA1A74 /* PBXTextBookmark */ = 551BF5CF11494B4E00BA1A74 /* PBXTextBookmark */;
+			551BF5D511494C6400BA1A74 /* PBXTextBookmark */ = 551BF5D511494C6400BA1A74 /* PBXTextBookmark */;
+			551BF5D611494C6400BA1A74 /* PBXTextBookmark */ = 551BF5D611494C6400BA1A74 /* PBXTextBookmark */;
+			551BF5D711494C6400BA1A74 /* PBXTextBookmark */ = 551BF5D711494C6400BA1A74 /* PBXTextBookmark */;
+			551BF5D911494C8000BA1A74 /* PBXTextBookmark */ = 551BF5D911494C8000BA1A74 /* PBXTextBookmark */;
+			551BF5DB11494C8100BA1A74 /* PBXTextBookmark */ = 551BF5DB11494C8100BA1A74 /* PBXTextBookmark */;
+			551BF5DC11494C8100BA1A74 /* PBXTextBookmark */ = 551BF5DC11494C8100BA1A74 /* PBXTextBookmark */;
+			551BF5DD11494C8100BA1A74 /* PBXTextBookmark */ = 551BF5DD11494C8100BA1A74 /* PBXTextBookmark */;
+			551BF5E011494CA800BA1A74 /* PBXTextBookmark */ = 551BF5E011494CA800BA1A74 /* PBXTextBookmark */;
+			551BF5E111494CA800BA1A74 /* PBXTextBookmark */ = 551BF5E111494CA800BA1A74 /* PBXTextBookmark */;
+			551BF5E211494CA800BA1A74 /* PBXTextBookmark */ = 551BF5E211494CA800BA1A74 /* PBXTextBookmark */;
 			553A0D8711487EBE00A95B78 = 553A0D8711487EBE00A95B78 /* PBXBookmark */;
 			553A0DD7114883AA00A95B78 = 553A0DD7114883AA00A95B78 /* PBXTextBookmark */;
 		};
@@ -218,18 +305,18 @@
 		fRef = 55E9152B1141CEE100489807 /* Mtorrentcontroller.h */;
 		name = "Mtorrentcontroller.h: 18";
 		rLen = 9;
-		rLoc = 446;
+		rLoc = 208;
 		rType = 0;
-		vrLen = 1151;
+		vrLen = 1107;
 		vrLoc = 0;
 	};
 	551BF4271148840100BA1A74 /* PBXBookmark */ = {
 		isa = PBXBookmark;
-		fRef = 55E9152C1141CEE100489807 /* Mtorrentcontroller.mm */;
+		fRef = 55E9152C1141CEE100489807 /* Mtorrentcontroller.m */;
 	};
 	551BF42C1148841A00BA1A74 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 55E9152C1141CEE100489807 /* Mtorrentcontroller.mm */;
+		fRef = 55E9152C1141CEE100489807 /* Mtorrentcontroller.m */;
 		name = "Mtorrentcontroller.mm: 28";
 		rLen = 0;
 		rLoc = 536;
@@ -242,17 +329,17 @@
 		fRef = 55E9152B1141CEE100489807 /* Mtorrentcontroller.h */;
 		name = "Mtorrentcontroller.h: 18";
 		rLen = 9;
-		rLoc = 446;
+		rLoc = 208;
 		rType = 0;
-		vrLen = 1151;
+		vrLen = 1107;
 		vrLoc = 0;
 	};
 	551BF43A1148842A00BA1A74 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 55E9152C1141CEE100489807 /* Mtorrentcontroller.mm */;
+		fRef = 55E9152C1141CEE100489807 /* Mtorrentcontroller.m */;
 		name = "Mtorrentcontroller.mm: 40";
 		rLen = 0;
-		rLoc = 705;
+		rLoc = 796;
 		rType = 0;
 		vrLen = 1364;
 		vrLoc = 0;
@@ -262,17 +349,17 @@
 		fRef = 55E9152B1141CEE100489807 /* Mtorrentcontroller.h */;
 		name = "Mtorrentcontroller.h: 18";
 		rLen = 9;
-		rLoc = 446;
+		rLoc = 208;
 		rType = 0;
-		vrLen = 1151;
+		vrLen = 1107;
 		vrLoc = 0;
 	};
 	551BF4401148848600BA1A74 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 55E9152C1141CEE100489807 /* Mtorrentcontroller.mm */;
+		fRef = 55E9152C1141CEE100489807 /* Mtorrentcontroller.m */;
 		name = "Mtorrentcontroller.mm: 40";
 		rLen = 0;
-		rLoc = 705;
+		rLoc = 796;
 		rType = 0;
 		vrLen = 1728;
 		vrLoc = 293;
@@ -282,12 +369,12 @@
 		fRef = 55E9152B1141CEE100489807 /* Mtorrentcontroller.h */;
 		name = "Mtorrentcontroller.h: 18";
 		rLen = 9;
-		rLoc = 446;
+		rLoc = 208;
 		rType = 0;
-		vrLen = 1151;
+		vrLen = 1107;
 		vrLoc = 0;
 	};
-	551BF4431148849C00BA1A74 /* Mtorrentcontroller.mm:28 */ = {
+	551BF4431148849C00BA1A74 /* Mtorrentcontroller.m:28 */ = {
 		isa = PBXFileBreakpoint;
 		actions = (
 		);
@@ -295,7 +382,7 @@
 		continueAfterActions = 0;
 		countType = 0;
 		delayBeforeContinue = 0;
-		fileReference = 55E9152C1141CEE100489807 /* Mtorrentcontroller.mm */;
+		fileReference = 55E9152C1141CEE100489807 /* Mtorrentcontroller.m */;
 		functionName = "-init";
 		hitCount = 1;
 		ignoreCount = 0;
@@ -307,20 +394,20 @@
 	};
 	551BF447114884A000BA1A74 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 55E9152C1141CEE100489807 /* Mtorrentcontroller.mm */;
+		fRef = 55E9152C1141CEE100489807 /* Mtorrentcontroller.m */;
 		name = "Mtorrentcontroller.mm: 40";
 		rLen = 0;
-		rLoc = 705;
+		rLoc = 796;
 		rType = 0;
 		vrLen = 1755;
 		vrLoc = 293;
 	};
 	551BF448114884A000BA1A74 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 55E9152C1141CEE100489807 /* Mtorrentcontroller.mm */;
+		fRef = 55E9152C1141CEE100489807 /* Mtorrentcontroller.m */;
 		name = "Mtorrentcontroller.mm: 40";
 		rLen = 0;
-		rLoc = 705;
+		rLoc = 796;
 		rType = 0;
 		vrLen = 1728;
 		vrLoc = 293;
@@ -330,17 +417,17 @@
 		fRef = 55E9152B1141CEE100489807 /* Mtorrentcontroller.h */;
 		name = "Mtorrentcontroller.h: 18";
 		rLen = 9;
-		rLoc = 446;
+		rLoc = 208;
 		rType = 0;
-		vrLen = 1151;
+		vrLen = 1107;
 		vrLoc = 0;
 	};
 	551BF44D114884B300BA1A74 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 55E9152C1141CEE100489807 /* Mtorrentcontroller.mm */;
+		fRef = 55E9152C1141CEE100489807 /* Mtorrentcontroller.m */;
 		name = "Mtorrentcontroller.mm: 40";
 		rLen = 0;
-		rLoc = 705;
+		rLoc = 796;
 		rType = 0;
 		vrLen = 1728;
 		vrLoc = 293;
@@ -350,17 +437,17 @@
 		fRef = 55E9152B1141CEE100489807 /* Mtorrentcontroller.h */;
 		name = "Mtorrentcontroller.h: 18";
 		rLen = 9;
-		rLoc = 446;
+		rLoc = 208;
 		rType = 0;
-		vrLen = 1151;
+		vrLen = 1107;
 		vrLoc = 0;
 	};
 	551BF452114884E600BA1A74 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 55E9152C1141CEE100489807 /* Mtorrentcontroller.mm */;
+		fRef = 55E9152C1141CEE100489807 /* Mtorrentcontroller.m */;
 		name = "Mtorrentcontroller.mm: 40";
 		rLen = 0;
-		rLoc = 705;
+		rLoc = 796;
 		rType = 0;
 		vrLen = 1728;
 		vrLoc = 293;
@@ -370,27 +457,27 @@
 		fRef = 55E9152B1141CEE100489807 /* Mtorrentcontroller.h */;
 		name = "Mtorrentcontroller.h: 18";
 		rLen = 9;
-		rLoc = 446;
+		rLoc = 208;
 		rType = 0;
-		vrLen = 1151;
+		vrLen = 1107;
 		vrLoc = 0;
 	};
 	551BF4591148854B00BA1A74 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 55E9152C1141CEE100489807 /* Mtorrentcontroller.mm */;
+		fRef = 55E9152C1141CEE100489807 /* Mtorrentcontroller.m */;
 		name = "Mtorrentcontroller.mm: 40";
 		rLen = 0;
-		rLoc = 705;
+		rLoc = 796;
 		rType = 0;
 		vrLen = 1728;
 		vrLoc = 293;
 	};
 	551BF45A1148854B00BA1A74 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 55E9152C1141CEE100489807 /* Mtorrentcontroller.mm */;
+		fRef = 55E9152C1141CEE100489807 /* Mtorrentcontroller.m */;
 		name = "Mtorrentcontroller.mm: 33";
 		rLen = 0;
-		rLoc = 614;
+		rLoc = 699;
 		rType = 0;
 		vrLen = 1441;
 		vrLoc = 174;
@@ -400,17 +487,17 @@
 		fRef = 55E9152B1141CEE100489807 /* Mtorrentcontroller.h */;
 		name = "Mtorrentcontroller.h: 18";
 		rLen = 9;
-		rLoc = 446;
+		rLoc = 208;
 		rType = 0;
-		vrLen = 1151;
+		vrLen = 1107;
 		vrLoc = 0;
 	};
 	551BF4601148857100BA1A74 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 55E9152C1141CEE100489807 /* Mtorrentcontroller.mm */;
+		fRef = 55E9152C1141CEE100489807 /* Mtorrentcontroller.m */;
 		name = "Mtorrentcontroller.mm: 36";
 		rLen = 0;
-		rLoc = 649;
+		rLoc = 734;
 		rType = 0;
 		vrLen = 1429;
 		vrLoc = 174;
@@ -420,29 +507,29 @@
 		fRef = 55E9152B1141CEE100489807 /* Mtorrentcontroller.h */;
 		name = "Mtorrentcontroller.h: 18";
 		rLen = 9;
-		rLoc = 446;
+		rLoc = 208;
 		rType = 0;
-		vrLen = 1151;
+		vrLen = 1107;
 		vrLoc = 0;
 	};
 	551BF4701148C56700BA1A74 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 55D991B4114565E900974C80 /* TableView.mm */;
+		fRef = 55D991B4114565E900974C80 /* TableView.m */;
 		name = "TableView.mm: 24";
 		rLen = 0;
-		rLoc = 471;
+		rLoc = 453;
 		rType = 0;
 		vrLen = 657;
 		vrLoc = 0;
 	};
 	551BF4711148C56700BA1A74 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 55D991B4114565E900974C80 /* TableView.mm */;
+		fRef = 55D991B4114565E900974C80 /* TableView.m */;
 		name = "TableView.mm: 59";
 		rLen = 0;
-		rLoc = 1275;
+		rLoc = 1357;
 		rType = 0;
-		vrLen = 1083;
+		vrLen = 1038;
 		vrLoc = 391;
 	};
 	551BF4741148C56700BA1A74 /* PBXTextBookmark */ = {
@@ -450,7 +537,7 @@
 		fRef = 55D991B3114565E900974C80 /* TableView.h */;
 		name = "TableView.h: 25";
 		rLen = 0;
-		rLoc = 552;
+		rLoc = 521;
 		rType = 0;
 		vrLen = 765;
 		vrLoc = 0;
@@ -460,7 +547,7 @@
 		fRef = 55D991B3114565E900974C80 /* TableView.h */;
 		name = "TableView.h: 25";
 		rLen = 0;
-		rLoc = 552;
+		rLoc = 521;
 		rType = 0;
 		vrLen = 765;
 		vrLoc = 0;
@@ -470,17 +557,17 @@
 		fRef = 55E9152B1141CEE100489807 /* Mtorrentcontroller.h */;
 		name = "Mtorrentcontroller.h: 18";
 		rLen = 9;
-		rLoc = 446;
+		rLoc = 208;
 		rType = 0;
-		vrLen = 1151;
+		vrLen = 1107;
 		vrLoc = 0;
 	};
 	551BF47A1148C6AB00BA1A74 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 55D991B4114565E900974C80 /* TableView.mm */;
+		fRef = 55D991B4114565E900974C80 /* TableView.m */;
 		name = "TableView.mm: 59";
 		rLen = 0;
-		rLoc = 1275;
+		rLoc = 1357;
 		rType = 0;
 		vrLen = 1031;
 		vrLoc = 391;
@@ -490,7 +577,7 @@
 		fRef = 55D991B3114565E900974C80 /* TableView.h */;
 		name = "TableView.h: 25";
 		rLen = 0;
-		rLoc = 552;
+		rLoc = 521;
 		rType = 0;
 		vrLen = 765;
 		vrLoc = 0;
@@ -500,37 +587,37 @@
 		fRef = 55E9152B1141CEE100489807 /* Mtorrentcontroller.h */;
 		name = "Mtorrentcontroller.h: 18";
 		rLen = 9;
-		rLoc = 446;
+		rLoc = 208;
 		rType = 0;
-		vrLen = 1151;
+		vrLen = 1107;
 		vrLoc = 0;
 	};
 	551BF4831148C70F00BA1A74 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 55D991B4114565E900974C80 /* TableView.mm */;
+		fRef = 55D991B4114565E900974C80 /* TableView.m */;
 		name = "TableView.mm: 59";
 		rLen = 0;
-		rLoc = 1275;
+		rLoc = 1357;
 		rType = 0;
 		vrLen = 1036;
 		vrLoc = 391;
 	};
 	551BF4861148C7E600BA1A74 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 55D991B4114565E900974C80 /* TableView.mm */;
+		fRef = 55D991B4114565E900974C80 /* TableView.m */;
 		name = "TableView.mm: 59";
 		rLen = 0;
-		rLoc = 1275;
+		rLoc = 1357;
 		rType = 0;
-		vrLen = 1077;
+		vrLen = 1036;
 		vrLoc = 393;
 	};
 	551BF4881148C80B00BA1A74 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 55D991B4114565E900974C80 /* TableView.mm */;
+		fRef = 55D991B4114565E900974C80 /* TableView.m */;
 		name = "TableView.mm: 58";
 		rLen = 0;
-		rLoc = 1275;
+		rLoc = 1357;
 		rType = 0;
 		vrLen = 992;
 		vrLoc = 391;
@@ -551,14 +638,14 @@
 	};
 	551BF4A21148CD8D00BA1A74 /* PBXBookmark */ = {
 		isa = PBXBookmark;
-		fRef = 55D991B4114565E900974C80 /* TableView.mm */;
+		fRef = 55D991B4114565E900974C80 /* TableView.m */;
 	};
 	551BF4A91148CDD100BA1A74 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 55D991B4114565E900974C80 /* TableView.mm */;
+		fRef = 55D991B4114565E900974C80 /* TableView.m */;
 		name = "TableView.mm: 43";
 		rLen = 0;
-		rLoc = 765;
+		rLoc = 730;
 		rType = 0;
 		vrLen = 998;
 		vrLoc = 155;
@@ -567,7 +654,7 @@
 		isa = PBXTextBookmark;
 		fRef = 55D991B3114565E900974C80 /* TableView.h */;
 		name = "TableView.h: 1";
-		rLen = 803;
+		rLen = 754;
 		rLoc = 0;
 		rType = 0;
 		vrLen = 803;
@@ -575,23 +662,23 @@
 	};
 	551BF4AC1148CDD700BA1A74 /* PBXBookmark */ = {
 		isa = PBXBookmark;
-		fRef = 55E9152C1141CEE100489807 /* Mtorrentcontroller.mm */;
+		fRef = 55E9152C1141CEE100489807 /* Mtorrentcontroller.m */;
 	};
 	551BF4B11148CDE800BA1A74 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 55E9152C1141CEE100489807 /* Mtorrentcontroller.mm */;
+		fRef = 55E9152C1141CEE100489807 /* Mtorrentcontroller.m */;
 		name = "Mtorrentcontroller.mm: 69";
 		rLen = 0;
-		rLoc = 1933;
+		rLoc = 2024;
 		rType = 0;
-		vrLen = 1867;
+		vrLen = 1813;
 		vrLoc = 557;
 	};
 	551BF4B21148CDE800BA1A74 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 55D991B3114565E900974C80 /* TableView.h */;
 		name = "TableView.h: 1";
-		rLen = 803;
+		rLen = 754;
 		rLoc = 0;
 		rType = 0;
 		vrLen = 803;
@@ -599,19 +686,19 @@
 	};
 	551BF4B61148CE0500BA1A74 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 55E9152C1141CEE100489807 /* Mtorrentcontroller.mm */;
+		fRef = 55E9152C1141CEE100489807 /* Mtorrentcontroller.m */;
 		name = "Mtorrentcontroller.mm: 69";
 		rLen = 0;
-		rLoc = 1933;
+		rLoc = 2024;
 		rType = 0;
-		vrLen = 1878;
+		vrLen = 1813;
 		vrLoc = 557;
 	};
 	551BF4B71148CE0500BA1A74 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 55D991B3114565E900974C80 /* TableView.h */;
 		name = "TableView.h: 1";
-		rLen = 803;
+		rLen = 754;
 		rLoc = 0;
 		rType = 0;
 		vrLen = 803;
@@ -620,28 +707,28 @@
 	551BF4BC1148CE5B00BA1A74 /* XCBuildMessageTextBookmark */ = {
 		isa = PBXTextBookmark;
 		comments = "'TableView' may not respond to '-myaddObject:'";
-		fRef = 55E9152C1141CEE100489807 /* Mtorrentcontroller.mm */;
+		fRef = 55E9152C1141CEE100489807 /* Mtorrentcontroller.m */;
 		fallbackIsa = XCBuildMessageTextBookmark;
 		rLen = 0;
-		rLoc = 50;
+		rLoc = 52;
 		rType = 1;
 	};
 	551BF4BD1148CE5B00BA1A74 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 55E9152C1141CEE100489807 /* Mtorrentcontroller.mm */;
+		fRef = 55E9152C1141CEE100489807 /* Mtorrentcontroller.m */;
 		name = "Mtorrentcontroller.mm: 53";
 		rLen = 0;
-		rLoc = 1166;
+		rLoc = 1257;
 		rType = 0;
 		vrLen = 856;
 		vrLoc = 758;
 	};
 	551BF4BE1148CE5F00BA1A74 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 55E9152C1141CEE100489807 /* Mtorrentcontroller.mm */;
+		fRef = 55E9152C1141CEE100489807 /* Mtorrentcontroller.m */;
 		name = "Mtorrentcontroller.mm: 69";
 		rLen = 0;
-		rLoc = 1933;
+		rLoc = 2024;
 		rType = 0;
 		vrLen = 1540;
 		vrLoc = 196;
@@ -650,7 +737,7 @@
 		isa = PBXTextBookmark;
 		fRef = 55D991B3114565E900974C80 /* TableView.h */;
 		name = "TableView.h: 1";
-		rLen = 803;
+		rLen = 754;
 		rLoc = 0;
 		rType = 0;
 		vrLen = 803;
@@ -658,24 +745,24 @@
 	};
 	551BF4C11148CE6E00BA1A74 /* PBXBookmark */ = {
 		isa = PBXBookmark;
-		fRef = 55D991B4114565E900974C80 /* TableView.mm */;
+		fRef = 55D991B4114565E900974C80 /* TableView.m */;
 	};
 	551BF4C81148CEA700BA1A74 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 55D991B4114565E900974C80 /* TableView.mm */;
+		fRef = 55D991B4114565E900974C80 /* TableView.m */;
 		name = "TableView.mm: 64";
 		rLen = 0;
-		rLoc = 1313;
+		rLoc = 1395;
 		rType = 0;
-		vrLen = 1141;
+		vrLen = 859;
 		vrLoc = 570;
 	};
 	551BF4C91148CEA700BA1A74 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 55E9152C1141CEE100489807 /* Mtorrentcontroller.mm */;
+		fRef = 55E9152C1141CEE100489807 /* Mtorrentcontroller.m */;
 		name = "Mtorrentcontroller.mm: 69";
 		rLen = 0;
-		rLoc = 1933;
+		rLoc = 2024;
 		rType = 0;
 		vrLen = 1540;
 		vrLoc = 196;
@@ -686,20 +773,20 @@
 	};
 	551BF4D01148CF1000BA1A74 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 55E9152C1141CEE100489807 /* Mtorrentcontroller.mm */;
+		fRef = 55E9152C1141CEE100489807 /* Mtorrentcontroller.m */;
 		name = "Mtorrentcontroller.mm: 69";
 		rLen = 0;
-		rLoc = 1933;
+		rLoc = 2024;
 		rType = 0;
 		vrLen = 1540;
 		vrLoc = 196;
 	};
 	551BF4D11148CF1000BA1A74 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 55E9152C1141CEE100489807 /* Mtorrentcontroller.mm */;
+		fRef = 55E9152C1141CEE100489807 /* Mtorrentcontroller.m */;
 		name = "Mtorrentcontroller.mm: 54";
 		rLen = 0;
-		rLoc = 1353;
+		rLoc = 1444;
 		rType = 0;
 		vrLen = 1658;
 		vrLoc = 315;
@@ -709,57 +796,57 @@
 		fRef = 55D991B3114565E900974C80 /* TableView.h */;
 		name = "TableView.h: 31";
 		rLen = 0;
-		rLoc = 803;
+		rLoc = 754;
 		rType = 0;
 		vrLen = 803;
 		vrLoc = 0;
 	};
 	551BF4D51148CF1000BA1A74 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 55D991B4114565E900974C80 /* TableView.mm */;
+		fRef = 55D991B4114565E900974C80 /* TableView.m */;
 		name = "TableView.mm: 64";
 		rLen = 0;
-		rLoc = 1313;
+		rLoc = 1395;
 		rType = 0;
-		vrLen = 1141;
+		vrLen = 859;
 		vrLoc = 570;
 	};
 	551BF4D61148CF1000BA1A74 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 55D991B4114565E900974C80 /* TableView.mm */;
+		fRef = 55D991B4114565E900974C80 /* TableView.m */;
 		name = "TableView.mm: 50";
-		rLen = 241;
-		rLoc = 852;
+		rLen = 0;
+		rLoc = 1178;
 		rType = 0;
 		vrLen = 1052;
 		vrLoc = 319;
 	};
 	551BF4DB1148CF6100BA1A74 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 55D991B4114565E900974C80 /* TableView.mm */;
+		fRef = 55D991B4114565E900974C80 /* TableView.m */;
 		name = "TableView.mm: 50";
-		rLen = 241;
-		rLoc = 852;
+		rLen = 0;
+		rLoc = 1178;
 		rType = 0;
 		vrLen = 1052;
 		vrLoc = 319;
 	};
 	551BF4DC1148CF6100BA1A74 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 55D991B4114565E900974C80 /* TableView.mm */;
+		fRef = 55D991B4114565E900974C80 /* TableView.m */;
 		name = "TableView.mm: 73";
 		rLen = 0;
-		rLoc = 1680;
+		rLoc = 1762;
 		rType = 0;
-		vrLen = 1141;
+		vrLen = 859;
 		vrLoc = 570;
 	};
 	551BF4DD1148CF6100BA1A74 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 55E9152C1141CEE100489807 /* Mtorrentcontroller.mm */;
+		fRef = 55E9152C1141CEE100489807 /* Mtorrentcontroller.m */;
 		name = "Mtorrentcontroller.mm: 54";
 		rLen = 0;
-		rLoc = 1353;
+		rLoc = 1444;
 		rType = 0;
 		vrLen = 1672;
 		vrLoc = 272;
@@ -769,37 +856,37 @@
 		fRef = 55D991B3114565E900974C80 /* TableView.h */;
 		name = "TableView.h: 31";
 		rLen = 0;
-		rLoc = 803;
+		rLoc = 754;
 		rType = 0;
 		vrLen = 803;
 		vrLoc = 0;
 	};
 	551BF4E01148CF6F00BA1A74 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 55E9152C1141CEE100489807 /* Mtorrentcontroller.mm */;
+		fRef = 55E9152C1141CEE100489807 /* Mtorrentcontroller.m */;
 		name = "Mtorrentcontroller.mm: 54";
 		rLen = 0;
-		rLoc = 1352;
+		rLoc = 1443;
 		rType = 0;
 		vrLen = 856;
 		vrLoc = 758;
 	};
 	551BF4E31148CF8700BA1A74 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 55D991B4114565E900974C80 /* TableView.mm */;
+		fRef = 55D991B4114565E900974C80 /* TableView.m */;
 		name = "TableView.mm: 42";
 		rLen = 0;
-		rLoc = 751;
+		rLoc = 716;
 		rType = 0;
-		vrLen = 1124;
+		vrLen = 962;
 		vrLoc = 467;
 	};
 	551BF4E41148CF8700BA1A74 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 55E9152C1141CEE100489807 /* Mtorrentcontroller.mm */;
+		fRef = 55E9152C1141CEE100489807 /* Mtorrentcontroller.m */;
 		name = "Mtorrentcontroller.mm: 54";
 		rLen = 0;
-		rLoc = 1353;
+		rLoc = 1444;
 		rType = 0;
 		vrLen = 1672;
 		vrLoc = 272;
@@ -809,44 +896,861 @@
 		fRef = 55D991B3114565E900974C80 /* TableView.h */;
 		name = "TableView.h: 31";
 		rLen = 0;
-		rLoc = 803;
+		rLoc = 754;
 		rType = 0;
 		vrLen = 803;
 		vrLoc = 0;
 	};
 	551BF4E71148D16900BA1A74 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 55E9152C1141CEE100489807 /* Mtorrentcontroller.mm */;
+		fRef = 55E9152C1141CEE100489807 /* Mtorrentcontroller.m */;
 		name = "Mtorrentcontroller.mm: 54";
 		rLen = 0;
-		rLoc = 1352;
+		rLoc = 1443;
 		rType = 0;
 		vrLen = 981;
 		vrLoc = 758;
 	};
 	551BF4E81148D18C00BA1A74 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 55E9152C1141CEE100489807 /* Mtorrentcontroller.mm */;
+		fRef = 55E9152C1141CEE100489807 /* Mtorrentcontroller.m */;
 		name = "Mtorrentcontroller.mm: 54";
 		rLen = 0;
-		rLoc = 1352;
+		rLoc = 1443;
 		rType = 0;
 		vrLen = 981;
 		vrLoc = 758;
 	};
 	551BF4E91148D2F600BA1A74 /* PBXBookmark */ = {
 		isa = PBXBookmark;
-		fRef = 55D991B4114565E900974C80 /* TableView.mm */;
+		fRef = 55D991B4114565E900974C80 /* TableView.m */;
 	};
 	551BF4F01148D32F00BA1A74 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 55D991B4114565E900974C80 /* TableView.mm */;
+		fRef = 55D991B4114565E900974C80 /* TableView.m */;
 		name = "TableView.mm: 21";
 		rLen = 0;
 		rLoc = 341;
 		rType = 0;
 		vrLen = 916;
 		vrLoc = 130;
+	};
+	551BF4F31149053000BA1A74 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 55D991B3114565E900974C80 /* TableView.h */;
+	};
+	551BF4F51149055D00BA1A74 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 55D991B4114565E900974C80 /* TableView.m */;
+		name = "TableView.mm: 21";
+		rLen = 0;
+		rLoc = 341;
+		rType = 0;
+		vrLen = 957;
+		vrLoc = 472;
+	};
+	551BF4F61149055D00BA1A74 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 55D991B4114565E900974C80 /* TableView.m */;
+		name = "TableView.mm: 47";
+		rLen = 0;
+		rLoc = 1177;
+		rType = 0;
+		vrLen = 762;
+		vrLoc = 127;
+	};
+	551BF4F91149055D00BA1A74 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 55D991B3114565E900974C80 /* TableView.h */;
+		name = "TableView.h: 19";
+		rLen = 2;
+		rLoc = 451;
+		rType = 0;
+		vrLen = 826;
+		vrLoc = 0;
+	};
+	551BF5031149060000BA1A74 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 55D991B4114565E900974C80 /* TableView.m */;
+		name = "TableView.mm: 47";
+		rLen = 0;
+		rLoc = 1177;
+		rType = 0;
+		vrLen = 778;
+		vrLoc = 153;
+	};
+	551BF5041149060000BA1A74 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 55D991B4114565E900974C80 /* TableView.m */;
+		name = "TableView.mm: 28";
+		rLen = 0;
+		rLoc = 495;
+		rType = 0;
+		vrLen = 853;
+		vrLoc = 153;
+	};
+	551BF5051149060000BA1A74 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 55D991B3114565E900974C80 /* TableView.h */;
+		name = "TableView.h: 19";
+		rLen = 2;
+		rLoc = 451;
+		rType = 0;
+		vrLen = 826;
+		vrLoc = 0;
+	};
+	551BF5061149060000BA1A74 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 55D991B3114565E900974C80 /* TableView.h */;
+		name = "TableView.h: 19";
+		rLen = 0;
+		rLoc = 451;
+		rType = 0;
+		vrLen = 823;
+		vrLoc = 0;
+	};
+	551BF50A1149066F00BA1A74 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 55D991B3114565E900974C80 /* TableView.h */;
+		name = "TableView.h: 19";
+		rLen = 0;
+		rLoc = 451;
+		rType = 0;
+		vrLen = 823;
+		vrLoc = 0;
+	};
+	551BF5131149077B00BA1A74 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 55D991B3114565E900974C80 /* TableView.h */;
+		name = "TableView.h: 19";
+		rLen = 0;
+		rLoc = 451;
+		rType = 0;
+		vrLen = 823;
+		vrLoc = 0;
+	};
+	551BF515114908BB00BA1A74 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 55D991B4114565E900974C80 /* TableView.m */;
+	};
+	551BF518114908C500BA1A74 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 55D991B4114565E900974C80 /* TableView.m */;
+		name = "TableView.mm: 43";
+		rLen = 0;
+		rLoc = 1177;
+		rType = 0;
+		vrLen = 1012;
+		vrLoc = 155;
+	};
+	551BF519114908C500BA1A74 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 55D991B3114565E900974C80 /* TableView.h */;
+		name = "TableView.h: 19";
+		rLen = 0;
+		rLoc = 451;
+		rType = 0;
+		vrLen = 821;
+		vrLoc = 0;
+	};
+	551BF51B1149092E00BA1A74 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 55D991B3114565E900974C80 /* TableView.h */;
+		name = "TableView.h: 19";
+		rLen = 0;
+		rLoc = 451;
+		rType = 0;
+		vrLen = 821;
+		vrLoc = 0;
+	};
+	551BF51C1149092E00BA1A74 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 55D991B4114565E900974C80 /* TableView.m */;
+		name = "TableView.mm: 43";
+		rLen = 0;
+		rLoc = 1177;
+		rType = 0;
+		vrLen = 1012;
+		vrLoc = 155;
+	};
+	551BF51D1149093C00BA1A74 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 55D991B4114565E900974C80 /* TableView.m */;
+		name = "TableView.mm: 43";
+		rLen = 0;
+		rLoc = 1177;
+		rType = 0;
+		vrLen = 1012;
+		vrLoc = 155;
+	};
+	551BF51F1149098A00BA1A74 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 55E9152B1141CEE100489807 /* Mtorrentcontroller.h */;
+	};
+	551BF5231149099F00BA1A74 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 55E9152C1141CEE100489807 /* Mtorrentcontroller.m */;
+		name = "Mtorrentcontroller.mm: 41";
+		rLen = 0;
+		rLoc = 796;
+		rType = 0;
+		vrLen = 1437;
+		vrLoc = 113;
+	};
+	551BF5241149099F00BA1A74 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 55E9152C1141CEE100489807 /* Mtorrentcontroller.m */;
+		name = "Mtorrentcontroller.mm: 41";
+		rLen = 0;
+		rLoc = 796;
+		rType = 0;
+		vrLen = 1437;
+		vrLoc = 113;
+	};
+	551BF5271149099F00BA1A74 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 55E9152B1141CEE100489807 /* Mtorrentcontroller.h */;
+		name = "Mtorrentcontroller.h: 18";
+		rLen = 26;
+		rLoc = 219;
+		rType = 0;
+		vrLen = 1107;
+		vrLoc = 0;
+	};
+	551BF5281149099F00BA1A74 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 55D991B4114565E900974C80 /* TableView.m */;
+		name = "TableView.mm: 43";
+		rLen = 0;
+		rLoc = 1177;
+		rType = 0;
+		vrLen = 1012;
+		vrLoc = 155;
+	};
+	551BF53011490A2E00BA1A74 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 55D991B3114565E900974C80 /* TableView.h */;
+	};
+	551BF53111490A2E00BA1A74 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 55D991B3114565E900974C80 /* TableView.h */;
+		name = "TableView.h: 19";
+		rLen = 0;
+		rLoc = 475;
+		rType = 0;
+		vrLen = 821;
+		vrLoc = 0;
+	};
+	551BF53211490A2E00BA1A74 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 55E9152C1141CEE100489807 /* Mtorrentcontroller.m */;
+		name = "Mtorrentcontroller.mm: 41";
+		rLen = 0;
+		rLoc = 796;
+		rType = 0;
+		vrLen = 1437;
+		vrLoc = 113;
+	};
+	551BF53311490A2E00BA1A74 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 55E9152B1141CEE100489807 /* Mtorrentcontroller.h */;
+		name = "Mtorrentcontroller.h: 18";
+		rLen = 26;
+		rLoc = 219;
+		rType = 0;
+		vrLen = 1107;
+		vrLoc = 0;
+	};
+	551BF53411490A2E00BA1A74 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 55D991B4114565E900974C80 /* TableView.m */;
+		name = "TableView.mm: 43";
+		rLen = 0;
+		rLoc = 1177;
+		rType = 0;
+		vrLen = 1012;
+		vrLoc = 155;
+	};
+	551BF53911490AD200BA1A74 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 55E9152C1141CEE100489807 /* Mtorrentcontroller.m */;
+		name = "Mtorrentcontroller.mm: 41";
+		rLen = 0;
+		rLoc = 796;
+		rType = 0;
+		vrLen = 1384;
+		vrLoc = 113;
+	};
+	551BF53A11490AD200BA1A74 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 55E9152C1141CEE100489807 /* Mtorrentcontroller.m */;
+		name = "Mtorrentcontroller.mm: 41";
+		rLen = 0;
+		rLoc = 796;
+		rType = 0;
+		vrLen = 1814;
+		vrLoc = 556;
+	};
+	551BF53B11490AD200BA1A74 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 55D991B3114565E900974C80 /* TableView.h */;
+		name = "TableView.h: 19";
+		rLen = 0;
+		rLoc = 475;
+		rType = 0;
+		vrLen = 821;
+		vrLoc = 0;
+	};
+	551BF53C11490AD200BA1A74 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 55D991B4114565E900974C80 /* TableView.m */;
+		name = "TableView.mm: 43";
+		rLen = 0;
+		rLoc = 1177;
+		rType = 0;
+		vrLen = 890;
+		vrLoc = 155;
+	};
+	551BF54511490C5900BA1A74 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 55E9152C1141CEE100489807 /* Mtorrentcontroller.m */;
+		name = "Mtorrentcontroller.mm: 34";
+		rLen = 0;
+		rLoc = 624;
+		rType = 0;
+		vrLen = 1507;
+		vrLoc = 197;
+	};
+	551BF54611490C5900BA1A74 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 55D991B3114565E900974C80 /* TableView.h */;
+		name = "TableView.h: 19";
+		rLen = 0;
+		rLoc = 475;
+		rType = 0;
+		vrLen = 821;
+		vrLoc = 0;
+	};
+	551BF54711490C5900BA1A74 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 55D991B4114565E900974C80 /* TableView.m */;
+		name = "TableView.mm: 43";
+		rLen = 0;
+		rLoc = 1177;
+		rType = 0;
+		vrLen = 890;
+		vrLoc = 155;
+	};
+	551BF54E11490CA500BA1A74 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 55D991B3114565E900974C80 /* TableView.h */;
+		name = "TableView.h: 19";
+		rLen = 0;
+		rLoc = 493;
+		rType = 0;
+		vrLen = 826;
+		vrLoc = 0;
+	};
+	551BF54F11490CA500BA1A74 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 55D991B3114565E900974C80 /* TableView.h */;
+		name = "TableView.h: 13";
+		rLen = 0;
+		rLoc = 264;
+		rType = 0;
+		vrLen = 826;
+		vrLoc = 0;
+	};
+	551BF55011490CA500BA1A74 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 55D991B4114565E900974C80 /* TableView.m */;
+		name = "TableView.mm: 43";
+		rLen = 0;
+		rLoc = 1177;
+		rType = 0;
+		vrLen = 1012;
+		vrLoc = 155;
+	};
+	551BF55111490CA500BA1A74 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 55D991B4114565E900974C80 /* TableView.m */;
+		name = "TableView.mm: 45";
+		rLen = 0;
+		rLoc = 1177;
+		rType = 0;
+		vrLen = 990;
+		vrLoc = 155;
+	};
+	551BF55211490CA500BA1A74 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 55E9152C1141CEE100489807 /* Mtorrentcontroller.m */;
+		name = "Mtorrentcontroller.mm: 34";
+		rLen = 0;
+		rLoc = 624;
+		rType = 0;
+		vrLen = 1507;
+		vrLoc = 197;
+	};
+	551BF55D1149127E00BA1A74 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Instance variable '<unnamed>' has unknown size";
+		fRef = 55E9152B1141CEE100489807 /* Mtorrentcontroller.h */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 0;
+		rLoc = 9;
+		rType = 1;
+	};
+	551BF568114912B800BA1A74 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 55E9152B1141CEE100489807 /* Mtorrentcontroller.h */;
+		name = "Mtorrentcontroller.h: 14";
+		rLen = 0;
+		rLoc = 325;
+		rType = 0;
+		vrLen = 1109;
+		vrLoc = 0;
+	};
+	551BF569114912B800BA1A74 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 55E9152C1141CEE100489807 /* Mtorrentcontroller.m */;
+		name = "Mtorrentcontroller.mm: 34";
+		rLen = 0;
+		rLoc = 624;
+		rType = 0;
+		vrLen = 1632;
+		vrLoc = 197;
+	};
+	551BF56A114912B800BA1A74 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 55E9152C1141CEE100489807 /* Mtorrentcontroller.m */;
+		name = "Mtorrentcontroller.m: 34";
+		rLen = 0;
+		rLoc = 626;
+		rType = 0;
+		vrLen = 1507;
+		vrLoc = 197;
+	};
+	551BF56B114912B800BA1A74 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 55D991B3114565E900974C80 /* TableView.h */;
+		name = "TableView.h: 13";
+		rLen = 0;
+		rLoc = 264;
+		rType = 0;
+		vrLen = 826;
+		vrLoc = 0;
+	};
+	551BF56C114912B800BA1A74 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 55D991B4114565E900974C80 /* TableView.m */;
+		name = "TableView.m: 45";
+		rLen = 0;
+		rLoc = 1177;
+		rType = 0;
+		vrLen = 990;
+		vrLoc = 155;
+	};
+	551BF56E114912BA00BA1A74 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Expected `;' before 'interface'";
+		fRef = 55E9152B1141CEE100489807 /* Mtorrentcontroller.h */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 0;
+		rLoc = 9;
+		rType = 1;
+	};
+	551BF56F114912BA00BA1A74 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 55E9152B1141CEE100489807 /* Mtorrentcontroller.h */;
+		name = "Mtorrentcontroller.h: 12";
+		rLen = 0;
+		rLoc = 190;
+		rType = 0;
+		vrLen = 748;
+		vrLoc = 117;
+	};
+	551BF572114912CB00BA1A74 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 55E9152B1141CEE100489807 /* Mtorrentcontroller.h */;
+		name = "Mtorrentcontroller.h: 14";
+		rLen = 0;
+		rLoc = 292;
+		rType = 0;
+		vrLen = 1142;
+		vrLoc = 0;
+	};
+	551BF573114912CB00BA1A74 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 55E9152C1141CEE100489807 /* Mtorrentcontroller.m */;
+		name = "Mtorrentcontroller.m: 34";
+		rLen = 0;
+		rLoc = 626;
+		rType = 0;
+		vrLen = 1507;
+		vrLoc = 197;
+	};
+	551BF574114912CB00BA1A74 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 55D991B3114565E900974C80 /* TableView.h */;
+		name = "TableView.h: 13";
+		rLen = 0;
+		rLoc = 264;
+		rType = 0;
+		vrLen = 826;
+		vrLoc = 0;
+	};
+	551BF575114912CB00BA1A74 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 55D991B4114565E900974C80 /* TableView.m */;
+		name = "TableView.m: 45";
+		rLen = 0;
+		rLoc = 1177;
+		rType = 0;
+		vrLen = 990;
+		vrLoc = 155;
+	};
+	551BF576114912D800BA1A74 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 55E9152B1141CEE100489807 /* Mtorrentcontroller.h */;
+		name = "Mtorrentcontroller.h: 12";
+		rLen = 0;
+		rLoc = 190;
+		rType = 0;
+		vrLen = 781;
+		vrLoc = 117;
+	};
+	551BF57911491F8D00BA1A74 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 55D991B4114565E900974C80 /* TableView.m */;
+	};
+	551BF57E1149203000BA1A74 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 55D991B4114565E900974C80 /* TableView.m */;
+		name = "TableView.m: 45";
+		rLen = 0;
+		rLoc = 1177;
+		rType = 0;
+		vrLen = 1122;
+		vrLoc = 182;
+	};
+	551BF5821149207F00BA1A74 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 55D991B4114565E900974C80 /* TableView.m */;
+		name = "TableView.m: 45";
+		rLen = 0;
+		rLoc = 1177;
+		rType = 0;
+		vrLen = 1182;
+		vrLoc = 377;
+	};
+	551BF58C114922D800BA1A74 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 55D991B4114565E900974C80 /* TableView.m */;
+		name = "TableView.m: 50";
+		rLen = 0;
+		rLoc = 1177;
+		rType = 0;
+		vrLen = 1279;
+		vrLoc = 377;
+	};
+	551BF58E11492B6100BA1A74 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 55D991B4114565E900974C80 /* TableView.m */;
+		name = "TableView.m: 45";
+		rLen = 0;
+		rLoc = 1177;
+		rType = 0;
+		vrLen = 1269;
+		vrLoc = 377;
+	};
+	551BF59111492F3400BA1A74 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Unused variable 'theValue'";
+		fRef = 55D991B4114565E900974C80 /* TableView.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 0;
+		rLoc = 50;
+		rType = 1;
+	};
+	551BF59211492F3400BA1A74 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 55D991B4114565E900974C80 /* TableView.m */;
+		name = "TableView.m: 45";
+		rLen = 0;
+		rLoc = 1177;
+		rType = 0;
+		vrLen = 697;
+		vrLoc = 577;
+	};
+	551BF595114930F600BA1A74 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 55E9152C1141CEE100489807 /* Mtorrentcontroller.m */;
+	};
+	551BF59A1149314600BA1A74 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 55E9152C1141CEE100489807 /* Mtorrentcontroller.m */;
+		name = "Mtorrentcontroller.m: 75";
+		rLen = 0;
+		rLoc = 2156;
+		rType = 0;
+		vrLen = 1938;
+		vrLoc = 615;
+	};
+	551BF59D114940F100BA1A74 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 55E9152B1141CEE100489807 /* Mtorrentcontroller.h */;
+	};
+	551BF5A1114940FC00BA1A74 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 55E9152B1141CEE100489807 /* Mtorrentcontroller.h */;
+		name = "Mtorrentcontroller.h: 25";
+		rLen = 0;
+		rLoc = 701;
+		rType = 0;
+		vrLen = 1148;
+		vrLoc = 0;
+	};
+	551BF5A2114940FC00BA1A74 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 55E9152C1141CEE100489807 /* Mtorrentcontroller.m */;
+		name = "Mtorrentcontroller.m: 43";
+		rLen = 36;
+		rLoc = 758;
+		rType = 0;
+		vrLen = 1944;
+		vrLoc = 615;
+	};
+	551BF5A5114941EF00BA1A74 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 55D991B3114565E900974C80 /* TableView.h */;
+	};
+	551BF5AE11494A3900BA1A74 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "'records' undeclared (first use in this function)";
+		fRef = 55E9152C1141CEE100489807 /* Mtorrentcontroller.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 92;
+		rType = 1;
+	};
+	551BF5BA11494AB100BA1A74 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 55E9152C1141CEE100489807 /* Mtorrentcontroller.m */;
+		name = "Mtorrentcontroller.m: 95";
+		rLen = 0;
+		rLoc = 2902;
+		rType = 0;
+		vrLen = 2142;
+		vrLoc = 758;
+	};
+	551BF5BB11494AB100BA1A74 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 55E9152B1141CEE100489807 /* Mtorrentcontroller.h */;
+		name = "Mtorrentcontroller.h: 27";
+		rLen = 0;
+		rLoc = 776;
+		rType = 0;
+		vrLen = 1190;
+		vrLoc = 0;
+	};
+	551BF5BC11494AB100BA1A74 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 55E9152B1141CEE100489807 /* Mtorrentcontroller.h */;
+		name = "Mtorrentcontroller.h: 27";
+		rLen = 0;
+		rLoc = 776;
+		rType = 0;
+		vrLen = 1190;
+		vrLoc = 0;
+	};
+	551BF5BF11494AB100BA1A74 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 55D991B3114565E900974C80 /* TableView.h */;
+		name = "TableView.h: 13";
+		rLen = 0;
+		rLoc = 264;
+		rType = 0;
+		vrLen = 826;
+		vrLoc = 0;
+	};
+	551BF5C311494AC700BA1A74 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 55E9152C1141CEE100489807 /* Mtorrentcontroller.m */;
+		name = "Mtorrentcontroller.m: 95";
+		rLen = 0;
+		rLoc = 2902;
+		rType = 0;
+		vrLen = 2145;
+		vrLoc = 758;
+	};
+	551BF5C411494AC700BA1A74 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 55E9152B1141CEE100489807 /* Mtorrentcontroller.h */;
+		name = "Mtorrentcontroller.h: 27";
+		rLen = 0;
+		rLoc = 776;
+		rType = 0;
+		vrLen = 1190;
+		vrLoc = 0;
+	};
+	551BF5C511494AC700BA1A74 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 55D991B3114565E900974C80 /* TableView.h */;
+		name = "TableView.h: 13";
+		rLen = 0;
+		rLoc = 264;
+		rType = 0;
+		vrLen = 826;
+		vrLoc = 0;
+	};
+	551BF5C711494AE700BA1A74 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "'records' undeclared (first use in this function)";
+		fRef = 55E9152C1141CEE100489807 /* Mtorrentcontroller.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 92;
+		rType = 1;
+	};
+	551BF5C811494AE700BA1A74 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 55E9152C1141CEE100489807 /* Mtorrentcontroller.m */;
+		name = "Mtorrentcontroller.m: 93";
+		rLen = 0;
+		rLoc = 2708;
+		rType = 0;
+		vrLen = 746;
+		vrLoc = 2157;
+	};
+	551BF5CD11494B4D00BA1A74 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 55E9152C1141CEE100489807 /* Mtorrentcontroller.m */;
+		name = "Mtorrentcontroller.m: 95";
+		rLen = 0;
+		rLoc = 2885;
+		rType = 0;
+		vrLen = 2083;
+		vrLoc = 849;
+	};
+	551BF5CE11494B4D00BA1A74 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 55E9152B1141CEE100489807 /* Mtorrentcontroller.h */;
+		name = "Mtorrentcontroller.h: 27";
+		rLen = 0;
+		rLoc = 776;
+		rType = 0;
+		vrLen = 1190;
+		vrLoc = 0;
+	};
+	551BF5CF11494B4E00BA1A74 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 55D991B3114565E900974C80 /* TableView.h */;
+		name = "TableView.h: 13";
+		rLen = 0;
+		rLoc = 264;
+		rType = 0;
+		vrLen = 826;
+		vrLoc = 0;
+	};
+	551BF5D511494C6400BA1A74 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 55E9152C1141CEE100489807 /* Mtorrentcontroller.m */;
+		name = "Mtorrentcontroller.m: 96";
+		rLen = 0;
+		rLoc = 2902;
+		rType = 0;
+		vrLen = 2124;
+		vrLoc = 797;
+	};
+	551BF5D611494C6400BA1A74 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 55E9152B1141CEE100489807 /* Mtorrentcontroller.h */;
+		name = "Mtorrentcontroller.h: 27";
+		rLen = 0;
+		rLoc = 776;
+		rType = 0;
+		vrLen = 1190;
+		vrLoc = 0;
+	};
+	551BF5D711494C6400BA1A74 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 55D991B3114565E900974C80 /* TableView.h */;
+		name = "TableView.h: 13";
+		rLen = 0;
+		rLoc = 264;
+		rType = 0;
+		vrLen = 826;
+		vrLoc = 0;
+	};
+	551BF5D911494C8000BA1A74 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 55E9152C1141CEE100489807 /* Mtorrentcontroller.m */;
+		name = "Mtorrentcontroller.m: 93";
+		rLen = 0;
+		rLoc = 2708;
+		rType = 0;
+		vrLen = 766;
+		vrLoc = 2160;
+	};
+	551BF5DB11494C8100BA1A74 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 55E9152C1141CEE100489807 /* Mtorrentcontroller.m */;
+		name = "Mtorrentcontroller.m: 96";
+		rLen = 0;
+		rLoc = 2902;
+		rType = 0;
+		vrLen = 2129;
+		vrLoc = 797;
+	};
+	551BF5DC11494C8100BA1A74 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 55E9152B1141CEE100489807 /* Mtorrentcontroller.h */;
+		name = "Mtorrentcontroller.h: 27";
+		rLen = 0;
+		rLoc = 776;
+		rType = 0;
+		vrLen = 1190;
+		vrLoc = 0;
+	};
+	551BF5DD11494C8100BA1A74 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 55D991B3114565E900974C80 /* TableView.h */;
+		name = "TableView.h: 13";
+		rLen = 0;
+		rLoc = 264;
+		rType = 0;
+		vrLen = 826;
+		vrLoc = 0;
+	};
+	551BF5E011494CA800BA1A74 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 55E9152C1141CEE100489807 /* Mtorrentcontroller.m */;
+		name = "Mtorrentcontroller.m: 96";
+		rLen = 0;
+		rLoc = 2948;
+		rType = 0;
+		vrLen = 2155;
+		vrLoc = 797;
+	};
+	551BF5E111494CA800BA1A74 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 55E9152B1141CEE100489807 /* Mtorrentcontroller.h */;
+		name = "Mtorrentcontroller.h: 27";
+		rLen = 0;
+		rLoc = 776;
+		rType = 0;
+		vrLen = 1190;
+		vrLoc = 0;
+	};
+	551BF5E211494CA800BA1A74 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 55D991B3114565E900974C80 /* TableView.h */;
+		name = "TableView.h: 13";
+		rLen = 0;
+		rLoc = 264;
+		rType = 0;
+		vrLen = 826;
+		vrLoc = 0;
 	};
 	55297CB21141705D00E8788B /* Rtorrent interface */ = {
 		isa = PBXExecutable;
@@ -918,7 +1822,7 @@
 		isa = PBXCodeSenseManager;
 		indexTemplatePath = "";
 	};
-	553A0D5311487C4900A95B78 /* TableView.mm:70 */ = {
+	553A0D5311487C4900A95B78 /* TableView.m:68 */ = {
 		isa = PBXFileBreakpoint;
 		actions = (
 		);
@@ -926,11 +1830,11 @@
 		continueAfterActions = 0;
 		countType = 0;
 		delayBeforeContinue = 0;
-		fileReference = 55D991B4114565E900974C80 /* TableView.mm */;
+		fileReference = 55D991B4114565E900974C80 /* TableView.m */;
 		functionName = "-numberOfRowsInTableView:";
 		hitCount = 0;
 		ignoreCount = 0;
-		lineNumber = 70;
+		lineNumber = 68;
 		location = "Rtorrent interface";
 		modificationTime = 289965232.410373;
 		originalNumberOfMultipleMatches = 1;
@@ -940,7 +1844,7 @@
 		isa = PBXBookmark;
 		fRef = 55E9152B1141CEE100489807 /* Mtorrentcontroller.h */;
 	};
-	553A0D9D11487F5300A95B78 /* Mtorrentcontroller.mm:55 */ = {
+	553A0D9D11487F5300A95B78 /* Mtorrentcontroller.m:57 */ = {
 		isa = PBXFileBreakpoint;
 		actions = (
 		);
@@ -948,11 +1852,11 @@
 		continueAfterActions = 0;
 		countType = 0;
 		delayBeforeContinue = 0;
-		fileReference = 55E9152C1141CEE100489807 /* Mtorrentcontroller.mm */;
+		fileReference = 55E9152C1141CEE100489807 /* Mtorrentcontroller.m */;
 		functionName = "-GetPath:";
 		hitCount = 0;
 		ignoreCount = 0;
-		lineNumber = 55;
+		lineNumber = 57;
 		location = "Rtorrent interface";
 		modificationTime = 289965232.447067;
 		originalNumberOfMultipleMatches = 1;
@@ -963,41 +1867,41 @@
 		fRef = 55E9152B1141CEE100489807 /* Mtorrentcontroller.h */;
 		name = "Mtorrentcontroller.h: 18";
 		rLen = 9;
-		rLoc = 446;
+		rLoc = 208;
 		rType = 0;
-		vrLen = 1151;
+		vrLen = 1107;
 		vrLoc = 0;
 	};
 	55D991B3114565E900974C80 /* TableView.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1071, 717}}";
-			sepNavSelRange = "{803, 0}";
-			sepNavVisRange = "{0, 803}";
+			sepNavIntBoundsRect = "{{0, 0}, {1071, 694}}";
+			sepNavSelRange = "{264, 0}";
+			sepNavVisRange = "{0, 826}";
 			sepNavWindowFrame = "{{150, 4}, {1130, 774}}";
 		};
 	};
-	55D991B4114565E900974C80 /* TableView.mm */ = {
+	55D991B4114565E900974C80 /* TableView.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1155, 1053}}";
-			sepNavSelRange = "{341, 0}";
-			sepNavVisRange = "{130, 916}";
-			sepNavWindowFrame = "{{66, 149}, {1214, 629}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1155, 923}}";
+			sepNavSelRange = "{757, 420}";
+			sepNavVisRange = "{452, 1320}";
+			sepNavWindowFrame = "{{66, 139}, {1214, 629}}";
 		};
 	};
 	55E9152B1141CEE100489807 /* Mtorrentcontroller.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1071, 694}}";
-			sepNavSelRange = "{446, 9}";
-			sepNavVisRange = "{0, 1151}";
-			sepNavWindowFrame = "{{150, 4}, {1130, 774}}";
+			sepNavSelRange = "{776, 0}";
+			sepNavVisRange = "{0, 1190}";
+			sepNavWindowFrame = "{{93, 4}, {1130, 774}}";
 		};
 	};
-	55E9152C1141CEE100489807 /* Mtorrentcontroller.mm */ = {
+	55E9152C1141CEE100489807 /* Mtorrentcontroller.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {952, 1131}}";
-			sepNavSelRange = "{1352, 0}";
-			sepNavVisRange = "{758, 981}";
-			sepNavWindowFrame = "{{367, 4}, {1130, 774}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1071, 1300}}";
+			sepNavSelRange = "{2948, 0}";
+			sepNavVisRange = "{797, 2155}";
+			sepNavWindowFrame = "{{96, 4}, {1130, 774}}";
 		};
 	};
 	8D15AC270486D014006FF6A4 /* Rtorrent interface */ = {
