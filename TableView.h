@@ -10,14 +10,19 @@
 #import <XMLRPC/XMLRPC.h>
 
 @interface TableView : NSObject <NSTableViewDataSource>{
- @private NSMutableArray* records;
+ IBOutlet NSTableView *myTable;
+ @private NSMutableDictionary* records;
 }
+@property(readwrite,assign) NSMutableDictionary* records;
+@property (assign) NSTableView* myTable;
+- (IBAction)reloadTableView:(id)sender;
 
-@property(readwrite,assign) NSMutableArray* records;
-
--(void) addObject:(NSDictionary*)Dictionery;
+-(void) myaddObject:(NSDictionary*)Dictionery to:(NSTableView*) tableView;
 
 -(void) addTest;
+@end
+
+@interface TableView (NSTableViewDelegate) <NSTableViewDelegate>
 - (id)tableView:(NSTableView *)tableView 
 objectValueForTableColumn:(NSTableColumn *)tableColumn 
             row:(int)row;

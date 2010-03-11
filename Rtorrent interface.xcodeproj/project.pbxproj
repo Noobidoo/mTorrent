@@ -9,9 +9,10 @@
 /* Begin PBXBuildFile section */
 		1DDD582C0DA1D0D100B32029 /* MyDocument.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58280DA1D0D100B32029 /* MyDocument.xib */; };
 		1DDD582D0DA1D0D100B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD582A0DA1D0D100B32029 /* MainMenu.xib */; };
-		55D991B5114565E900974C80 /* TableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 55D991B4114565E900974C80 /* TableView.m */; };
+		553A09F41147D68300A95B78 /* XMLRPC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 553A09F31147D68200A95B78 /* XMLRPC.framework */; };
+		553A0B16114868CD00A95B78 /* XMLRPC.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 553A09F31147D68200A95B78 /* XMLRPC.framework */; };
+		55D991B5114565E900974C80 /* TableView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 55D991B4114565E900974C80 /* TableView.mm */; };
 		55E9152D1141CEE100489807 /* Mtorrentcontroller.mm in Sources */ = {isa = PBXBuildFile; fileRef = 55E9152C1141CEE100489807 /* Mtorrentcontroller.mm */; };
-		55E91A4011446B3D00489807 /* XMLRPC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55E91A3F11446B3D00489807 /* XMLRPC.framework */; };
 		8D15AC2C0486D014006FF6A4 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 2A37F4B9FDCFA73011CA2CEA /* Credits.rtf */; };
 		8D15AC2F0486D014006FF6A4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165FFE840EACC02AAC07 /* InfoPlist.strings */; };
 		8D15AC310486D014006FF6A4 /* MyDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A37F4ACFDCFA73011CA2CEA /* MyDocument.m */; settings = {ATTRIBUTES = (); }; };
@@ -26,6 +27,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				553A0B16114868CD00A95B78 /* XMLRPC.framework in Copy Frameworks */,
 			);
 			name = "Copy Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -45,11 +47,11 @@
 		2A37F4BAFDCFA73011CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = English; path = English.lproj/Credits.rtf; sourceTree = "<group>"; };
 		2A37F4C4FDCFA73011CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		2A37F4C5FDCFA73011CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		553A09F31147D68200A95B78 /* XMLRPC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XMLRPC.framework; path = Frameworks/XMLRPC.framework; sourceTree = "<group>"; };
 		55D991B3114565E900974C80 /* TableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableView.h; sourceTree = "<group>"; };
-		55D991B4114565E900974C80 /* TableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableView.m; sourceTree = "<group>"; };
+		55D991B4114565E900974C80 /* TableView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TableView.mm; sourceTree = "<group>"; };
 		55E9152B1141CEE100489807 /* Mtorrentcontroller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mtorrentcontroller.h; sourceTree = "<group>"; };
 		55E9152C1141CEE100489807 /* Mtorrentcontroller.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Mtorrentcontroller.mm; sourceTree = "<group>"; };
-		55E91A3F11446B3D00489807 /* XMLRPC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XMLRPC.framework; path = Frameworks/XMLRPC.framework; sourceTree = "<group>"; };
 		8D15AC360486D014006FF6A4 /* Rtorrent_interface-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Rtorrent_interface-Info.plist"; sourceTree = "<group>"; };
 		8D15AC370486D014006FF6A4 /* Rtorrent interface.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rtorrent interface.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -59,7 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				55E91A4011446B3D00489807 /* XMLRPC.framework in Frameworks */,
+				553A09F41147D68300A95B78 /* XMLRPC.framework in Frameworks */,
 				8D15AC340486D014006FF6A4 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -71,7 +73,7 @@
 			isa = PBXGroup;
 			children = (
 				1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */,
-				55E91A3F11446B3D00489807 /* XMLRPC.framework */,
+				553A09F31147D68200A95B78 /* XMLRPC.framework */,
 			);
 			name = "Linked Frameworks";
 			sourceTree = "<group>";
@@ -114,7 +116,7 @@
 				2A37F4AEFDCFA73011CA2CEA /* MyDocument.h */,
 				2A37F4ACFDCFA73011CA2CEA /* MyDocument.m */,
 				55D991B3114565E900974C80 /* TableView.h */,
-				55D991B4114565E900974C80 /* TableView.m */,
+				55D991B4114565E900974C80 /* TableView.mm */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -210,7 +212,7 @@
 				8D15AC310486D014006FF6A4 /* MyDocument.m in Sources */,
 				8D15AC320486D014006FF6A4 /* main.m in Sources */,
 				55E9152D1141CEE100489807 /* Mtorrentcontroller.mm in Sources */,
-				55D991B5114565E900974C80 /* TableView.m in Sources */,
+				55D991B5114565E900974C80 /* TableView.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

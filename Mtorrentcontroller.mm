@@ -7,13 +7,14 @@
 
 #import "Mtorrentcontroller.h"
 #import <XMLRPC/XMLRPC.h>
+#import "TableView.h"
 
 @implementation Mtorrentcontroller
 
+@synthesize myTable;
+
 @synthesize URL;
-@synthesize request;
 @synthesize manager;
-@synthesize ViewData;
 @synthesize torrents;
 
 - (id)init
@@ -23,39 +24,34 @@
   URL=[NSURL URLWithString:@"http://noobs.gotdns.org/RPC2"];
   [URL retain];
   manager=[XMLRPCConnectionManager sharedManager];
-  ViewData=[ViewData init];
   torrents  = [[NSMutableArray alloc] init];
-
  }
  return self;
 }
 
+- (void)awakeFromNib {
+ mViewData = [myTable dataSource];
+}
 - (void)dealloc{
  [URL release];
- [ViewData release];
  [super dealloc];
  
 }
+
 - (IBAction)GetHash:(id)sender {
- request=[[XMLRPCRequest alloc] initWithURL:URL];
+ myrequest=[[XMLRPCRequest alloc] initWithURL:URL];
  NSArray* Parameters =[NSArray arrayWithObjects:@"",@"d.get_name=",@"d.get_base_path=",@"d.get_hash=",nil];
- [request setMethod:@"d.multicall" withParameter:Parameters];
- [manager spawnConnectionWithXMLRPCRequest: request delegate: self];
- [request release]; 
+ [myrequest setMethod:@"d.multicall" withParameter:Parameters];
+ NSLog(@"Sent: %@",[myrequest body]);
+ [manager spawnConnectionWithXMLRPCRequest: myrequest delegate: self];
+ [myrequest release];
 }
 - (IBAction)GetPath:(id)sender {
- 
-}
-
-- (IBAction)ReloadTable:(id)sender {
- NSDictionary *dict =[NSDictionary dictionaryWithObjectsAndKeys:
-                      @"./", @"Path",
-                      @"non", @"Name",
-                      @"95749389gfd8fgg8f", @"Hash",
-                      nil];
- 
- //add it to the arrayController
- [arrayContacts addObject:dict];
+ NSArray* m =[NSArray arrayWithObjects:@"Name",@"Path",@"Hash",nil];
+ NSArray* keys =[NSArray arrayWithObjects:@"Name",@"Path",@"Hash",nil];
+ NSDictionary* dict=[NSDictionary dictionaryWithObjects:m forKeys:keys];
+ [mViewData myaddObject:dict to:myTable];
+ [myTable reloadData];
 }
 
 
@@ -65,12 +61,14 @@
   
   NSLog(@"Fault string: %@", [response faultString]);
  } else {
-  [arrayContacts removeObjects:[arrayContacts arrangedObjects]];
-  for (NSArray* m in [NSArray arrayWithArray:[response object]]) {
-   NSArray* keys =[NSArray arrayWithObjects:@"Name",@"Path",@"Hash",nil];
-   NSDictionary* dict=[NSDictionary dictionaryWithObjects:m forKeys:keys];
-   [arrayContacts addObject:dict];
+  if ([request.method isEqualToString:@"d.multicall"]) {
+   for (NSArray* m in [NSArray arrayWithArray:[response object]]) {
+    NSArray* keys =[NSArray arrayWithObjects:@"Name",@"Path",@"Hash",nil];
+    NSDictionary* dict=[NSDictionary dictionaryWithObjects:m forKeys:keys];
+    [mViewData myaddObject:dict to:myTable];
+   }
   }
+  [myTable reloadData];
  }
  
 }

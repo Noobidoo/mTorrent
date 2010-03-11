@@ -10,22 +10,20 @@
 #import "TableView.h"
 
 @interface Mtorrentcontroller : NSObject <XMLRPCConnectionDelegate>{
- IBOutlet NSTableView *Table;
+ IBOutlet NSTableView *myTable;
  IBOutlet NSArrayController *arrayContacts;
 @private NSURL* URL;
-@private XMLRPCRequest* request;
+@private XMLRPCRequest* myrequest;
 @private XMLRPCConnectionManager* manager;
-@private TableView* ViewData;
+ TableView* mViewData;
  NSMutableArray* torrents;
 }
+@property (assign) NSTableView* myTable;
 @property (readwrite,assign) NSURL* URL;
-@property (readwrite,assign) XMLRPCRequest* request;
 @property (readwrite,assign) XMLRPCConnectionManager* manager;
-@property (readwrite,assign) TableView* ViewData;
 @property (copy) NSMutableArray* torrents;
 - (IBAction)GetHash:(id)sender;
 - (IBAction)GetPath:(id)sender;
-- (IBAction)ReloadTable:(id)sender;
 
 - (void)request: (XMLRPCRequest *)request didReceiveResponse: (XMLRPCResponse *)response;
 - (void)request: (XMLRPCRequest *)request didFailWithError: (NSError *)error;
